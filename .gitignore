@@ -1,6 +1,8 @@
 /node_modules
 /storage/*.key
 /vendor
+/public/images/seeker/*
+/public/images/company/*
 /.idea
 /.vagrant
 Homestead.json
