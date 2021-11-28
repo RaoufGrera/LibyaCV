@@ -1,0 +1,26 @@
+#facebox .body{ width:20px}
+#facebox{ position:absolute;  top:0;  right:0;  z-index:100;  text-align:right}
+
+#facebox .popup{ position:fixed;  top:10%;  left:50%;  margin-left:-380px;  background-color:#fff;  border:1px solid #6C7A89;  *border:1px solid #eee;   outline:none;  -webkit-box-shadow:0 3px 7px rgba(0,0,0,0.3);  -moz-box-shadow:0 3px 7px rgba(0,0,0,0.3);  box-shadow:0 3px 7px rgba(0,0,0,0.3);  -webkit-background-clip:padding-box;  -moz-background-clip:padding-box;  background-clip:padding-box}
+
+#facebox .contentbox{display:table;  width:700px}
+
+#facebox .contentbox >p:first-child{ margin-top:0}
+#facebox .contentbox >p:last-child{ margin-bottom:0}
+
+#facebox .close{width:20px; height:20px;  position:absolute;  top:12px;  right:5px;  padding:2px;  background:#fff}
+
+#facebox .close img{width:20px; height:20px;  opacity:1.3}
+#facebox .close:hover img{ opacity:2.0}
+
+#facebox .loading{ text-align:center}
+
+#facebox .image{ text-align:center}
+
+#facebox img{ border:0;  margin:0}
+
+#facebox_overlay{ position:fixed;  top:0px;  left:0px;  height:100%;  width:100%}
+
+.facebox_hide{ z-index:-100}
+
+.facebox_overlayBG{ background-color:#000;  z-index:99}

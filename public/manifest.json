@@ -1,0 +1,34 @@
+{
+  "short_name": "Libya CV",
+  "name": "Libya CV",
+  "theme_color": "#fff",
+  "background_color": "#fff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "icons/icon_48_48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+
+    {
+      "src": "icons/icon_96_48.png",
+      "type": "image/png",
+      "sizes": "96x96"
+    },
+     {
+      "src": "icons/icon_144_48.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+
+    {
+      "src": "icons/icon_192_48.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+
+  ],
+  "start_url": "https://www.libyacv.com/",
+  "orientation": "portrait"
+}

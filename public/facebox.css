@@ -1,0 +1,242 @@
+#facebox {
+position: absolute;
+top: 0;
+right: 0;
+z-index: 100;
+text-align: right;
+}
+
+@media screen and (max-height: 700px) {
+    #facebox .content{    max-height: 720px;
+} 
+}
+#facebox .popup{
+  position:fixed;
+    margin: 10px auto;
+    top: 0;
+    right: 0;
+    left: 0;
+        max-width: 400px;
+    min-width: 250px;
+
+    max-height: 250vh;
+background-color: #fff;
+
+    border: 2px solid rgb(183, 183, 183);
+ 
+}
+
+#facebox .content {
+  display:block;
+  width: 100%;
+   max-height: 420vh;
+  /*padding: 5px;
+      -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:4px;*/
+  background: #fff;
+     padding-top: 50px;
+  
+}
+
+
+#facebox .close{
+  position:absolute;
+  top:13px;
+  right:9px;
+  padding:2px;
+
+}
+
+
+#facebox .loading {
+
+	width: 100%;
+	display: table;
+	vertical-align: middle;
+	text-align: center;
+	height: 200px;
+
+}
+.loader{
+    display: block;
+    vertical-align: middle;
+    text-align: center;
+    height: 100px;
+}
+.loader img {
+    vertical-align: middle;
+    margin-top: 40px;
+    display: block;
+    align-content: center;
+    text-align: -moz-center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.loader img span{
+    display: block;
+}
+
+#facebox .image {
+vertical-align: middle;
+margin-top: 40px;
+display: block;
+align-content: center;
+text-align: -moz-center;
+margin-left: auto;
+margin-right: auto;
+}
+
+#facebox .loading span{
+    display: block;
+   
+}
+
+#facebox_overlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height:100%;
+  width:100%;
+}
+
+.facebox_hide {
+  z-index:-100;
+}
+
+.facebox_overlayBG {
+  background-color: #000;
+  z-index: 99;
+}
+.alert-face {
+	color: #000;
+	padding:  14px 35px 12px 14px;
+  	border-bottom: 1px solid #e5e5e5;
+ 	background: #F8F8F8;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    font-size: 14px;
+}
+.modal-face{
+    max-height: 70vh;
+      overflow-y: auto;
+}
+
+ .tooltip{float:left; margin-bottom:2px; position:relative; z-index:2;    margin-right: 15px;  width: 20px;}
+ .tooltip:hover{z-index:3}
+ .tooltip>span{display: inline-block;
+     width: 20px;
+     height: 20px;
+     line-height: 1.85;
+     font-size: .9em;
+     font-weight: bold;
+     text-align: center;
+     color: #FFF;
+     cursor: help;
+     background-color: rgba(254, 68, 87, 0.91);
+     position: relative;
+     border-radius: 10px;}
+ .tooltip .contenttool{opacity:0;left:10px; width:200px; background-color:#f2dede; color:#a94442; font-size:.9em; position:absolute; top:0;   padding-right:8px; border-radius:6px; pointer-events:none; border:1px solid #dca7a7}
+ .tooltip p{padding:0}
+ .tooltip.down .contenttool{left :auto; right :0; top:30px}
+ .tooltip:hover .contenttool{opacity:1; left :28px}
+ .tooltip .contenttool b{height:0; width:0; border-color: #DCA7A7 #DCA7A7 transparent  transparent  ; border-style:solid; border-width:9px 7px; position:absolute; left:-15px; top:8px}
+.tooltip.down .contenttool b{left: 0; right: 0;  border-width:5px; }
+
+
+/* input */
+
+.form-style-2 label{
+    display: block;
+    margin: 0px 0px 10px 0px;
+    width: 110px;
+     float: right;
+    padding-top: 8px;
+    padding-right: 1px;
+    color :  #63707E;
+
+}
+
+ 
+.form-style-2 span.req{
+    color:red;
+}
+
+.form-style-2 input[type=text],
+ .form-style-2 select,
+    .form-style-2 textarea{
+    width: 100%;
+
+}
+
+textarea:focus ,select:focus{
+    border-color: #1aaf8f;
+    outline:0;
+}
+textarea, select{
+      outline: none;
+    background-color: #fff;
+    font-size: 95%;
+    height: 30px;
+    color: #555;
+    border: 1px solid #ccc;
+}
+.day select {
+display : inline-block;
+width : 70px;
+color : #555;
+vertical-align : middle;
+}
+.search select {
+display : inline-block;
+width : 110px;
+color : #555;
+vertical-align : middle;
+}
+.exp select {
+display : inline-block;
+width : 119px;
+color : #555;
+vertical-align : middle;
+}
+
+
+.form-style-2 input[type=text],.form-style-2 input[type=email],
+.form-style-2 .textarea-field,
+ .form-style-2 select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  height: 34px;
+    padding-right: 6px;
+    outline: none;
+}
+tr:last-child  {
+    margin-top:10px;
+}
+
+.modal-face  table{
+    width: 100%;
+}
+.mymodal{
+    padding: 8px;
+}
+.modal-footer{
+    background-color: #F8F8F8;
+}
+/*
+.quick-search .list{
+     position: absolute;
+     left: 0;
+     background: #fff;
+     border: 1px solid #b1b1b1;
+     border-top: 1px solid #eee;
+     top: 46px;
+     width: 120px;
+     z-index: 50;
+ }*/
+
+
+
+/**/

@@ -1,0 +1,25 @@
+<html>
+<head>
+    <script    type="text/javascript" src="html2canvas.js"></script>
+    <script    type="text/javascript" src="jspdf.min.js"></script>
+
+</head>
+<body>
+<div id="capture" style="padding: 10px;height: 1200px; background: #f5da55">
+    <h4 onclick="p()" style="color: #000; ">عبدالرؤوف البني</h4>
+</div>
+
+<script type="text/javascript">
+ function p(){
+            var quality = 1;
+            html2canvas(document.querySelector("#capture")).then(canvas => {
+
+            let pdf = new jsPDF('p', 'mm', 'a5');
+
+            pdf.addImage(canvas.toDataURL('image/png'), 'PNG', 0, 0, 211, 298);
+            pdf.save("cCCC.pdf");
+        });
+        }
+</script>
+</body>
+</html>

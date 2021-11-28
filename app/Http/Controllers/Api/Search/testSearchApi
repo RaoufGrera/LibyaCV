@@ -1,0 +1,79 @@
+        $data = array(
+            'select' => 'all',
+            'id' => NULL,
+            'string'    =>  $string,
+            'cityName' => $cityName,
+            'domainName' => $domainName,
+            'typeName' => $typeName,
+
+            'statusName' => $statusName,
+
+             'page' =>  $page,
+            'start' =>  NULL,
+            'end' =>  NULL,
+        );
+        $records_at_page = 10;
+
+
+        $start= ($page -1) * $records_at_page;
+        $end = $records_at_page;
+
+        /*if($end >= $recodes_count)
+            $end=$recodes_count;
+*/
+        $data['start'] = $start;
+        $data['end'] = $end;
+
+        $arr = array();
+
+
+        $queryCount =$arr= $s->searchJob($data);
+        $recodes_count = count($queryCount);
+        $page_count = (int) ceil($recodes_count / $records_at_page );
+
+        if($recodes_count <> 0){
+            if($page <= 0){ //($page > $page_count) ||
+              return response()->json(
+                  Null
+                  ,200,[],JSON_NUMERIC_CHECK);
+            }}
+
+        //$jobs = $s->searchJob($data);
+
+
+        $data['start'] = NULL;
+        $data['end'] = NULL;
+        $jobArr = array();
+        foreach ($arr as $val) {
+            $jobArr[] = $val;
+
+
+        }
+        $jobsArray = array();
+        $jobIds = array();
+
+        if($jobArr != null) {
+            for ($t = 0; $t < $recodes_count; $t++) {
+                if( $jobArr[$t]->comp_active == 0)
+                    $companyName ="اسم الشركة مخفي";
+                else
+                    $companyName =  $jobArr[$t]->comp_name;
+
+                $jobsArray []=[
+
+                        'job_name' => $jobArr[$t]->job_name,
+                        'desc_id' => $jobArr[$t]->desc_id,
+                        'comp_name' => $companyName,
+
+                        'image' => "140px_". $jobArr[$t]->code_image ."_".$jobArr[$t]->image,
+
+                        'comp_user_name' => $jobArr[$t]->comp_user_name,
+                        'domain_name' => $jobArr[$t]->domain_name,
+                        'city_name' => $jobArr[$t]->city_name,
+                        // 'req_count' => $jobArr[$t]->req_count,
+                        'see_it' => $jobArr[$t]->see_it,
+                        'url' => $jobArr[$t]->url,
+                        'job_end' => $jobArr[$t]->job_end,
+                        'type' => "movie",
+                        'job_start' => $jobArr[$t]->job_start];
+            }

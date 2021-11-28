@@ -1,0 +1,6 @@
+Sitemap: https://www.libyacv.com/mysitemap.xml
+Sitemap: https://www.libyacv.com/mysitemap_cv.xml
+Sitemap: https://www.libyacv.com/mysitemap_company.xml
+
+User-agent: *
+Disallow:
