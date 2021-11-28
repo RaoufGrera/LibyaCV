@@ -19,8 +19,8 @@ $notes = $company->getNote();
             <div class="col-md-12 testimonials">
                 <div class="col-md-12 testin" >
                 <?php
-
-                ?>
+ 
+                ?> 
                 <div  @if( !Auth::guard('users')->check()) class="col-md-6 " @else class="col-md-12" @endif >
 
 
