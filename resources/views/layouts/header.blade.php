@@ -367,8 +367,9 @@
     </div>
 </footer>
 
-<script    type="text/javascript" src="{{asset('js/facebox/jquery.js')}}"></script>
+<script    type="text/javascript" src="{{asset('js/jquery.js')}}"></script>
 
+<script    type="text/javascript" src="{{asset('js/facebox/facebox.js')}}"></script>
 
 
 <script type="text/javascript" src="{{asset('js/index.js')}}" async ></script>
