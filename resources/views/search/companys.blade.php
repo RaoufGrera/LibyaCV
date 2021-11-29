@@ -276,30 +276,12 @@ if((isset($_GET['domain'])) ){
 
 
                 </div>
-                <br>
-                <h2 class="center">نماذج سيرة ذاتية</h2>
-
-                <div class="col-lg-12">
-
-                    <a href="/free-cv-template/english-resume">
-                        <div class="divblog">
-                            <img width="100%" src="{{asset('images/blog/cveng.png')}}">
-                            <span class="spanblog"><h2 class="titleblog">Cool free english resume</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/template_arabic_cv/download">
-                        <div class="divblog">
-                            <img width="100%" src="{{asset('images/blog/template_arabic.jpg')}}">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-
+             
 
                 </div><br>
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-9">
 
 
                     <style>
@@ -521,36 +503,7 @@ $("#moreImg").hide();
 
 <a class="facebox" style="display: none"></a>
 </div>
-            <div class="col-lg-3" style="border-right: 1px solid #ccc">
-                <br>
-                <h2 class="center">نماذج سيرة ذاتية</h2>
-
-                <div class="col-lg-12">
-
-                    <a href="/free-cv-template/english-resume">
-                        <div class="divblog">
-                            <img width="100%" src="{{asset('images/blog/cveng.png')}}">
-                            <span class="spanblog"><h2 class="titleblog">Cool free english resume</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/free_resume_with_photo_english_grey/download">
-                        <div class="divblog">
-                            <img width="100%" src="{{asset('images/blog/template2.jpg')}}">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/template_arabic_cv/download">
-                        <div class="divblog">
-                            <img width="100%" src="{{asset('images/blog/template_arabic.jpg')}}">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-
-                </div>
-            </div>
+           
 </div>
 <nav id="bottom" class="bottom t">
 <span class="clicker   icon-up-open"></span>
