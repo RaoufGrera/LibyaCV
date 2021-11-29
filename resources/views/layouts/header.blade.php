@@ -384,7 +384,6 @@
 
 </script>
 
-<a class="facebox" style="display: none"></a>
 
 @yield('last')
 </body>
