@@ -276,9 +276,8 @@ if((isset($_GET['domain'])) ){
 
 
                 </div>
-             
-
-                </div><br>
+                <br>
+           
                 </div>
 
                 <div class="col-md-9">
@@ -503,7 +502,7 @@ $("#moreImg").hide();
 
 <a class="facebox" style="display: none"></a>
 </div>
-           
+            
 </div>
 <nav id="bottom" class="bottom t">
 <span class="clicker   icon-up-open"></span>
