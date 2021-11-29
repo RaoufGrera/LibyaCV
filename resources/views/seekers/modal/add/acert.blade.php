@@ -77,6 +77,5 @@
 	$("#cert_name").delayKeyup(function() {searchAjax("#cert_name","cert","#certResults");},700);$("#cert_name").blur(function(){$("#certResults").fadeOut(500);}).focus(function() {$("#certResults").show();});
 
 </script>
-<script   type="text/javascript" src="{{asset('js/app.js')}}"></script>
 @stop
 
