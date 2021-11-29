@@ -980,7 +980,7 @@ public static function sendweb(){
                     'job_end' => $job_end,
                     'desc_down' => $l,
                     'manager_id' => $mangeId,
-
+ 
                 ]);
 
 
