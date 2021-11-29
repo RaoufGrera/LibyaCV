@@ -208,5 +208,4 @@
     $("#faculty").delayKeyup(function() {searchAjax("#faculty","faculty","#facultyResults");},700);$("#faculty").blur(function(){$("#facultyResults").fadeOut(500);}) .focus(function() {$("#facultyResults").show();});
     $("#specialty").delayKeyup(function() {searchAjax("#specialty","speced","#specialtyResults");},700);$("#specialty").blur(function(){$("#specialtyResults").fadeOut(500);}) .focus(function() {$("#specialtyResults").show();});
 </script>
-<script   type="text/javascript" src="{{asset('js/app.js')}}"></script>
 @stop

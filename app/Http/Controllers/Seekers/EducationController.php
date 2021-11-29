@@ -37,7 +37,6 @@ class EducationController extends Controller
 
          return view('seekers.modal.add.aed')
             ->with('ed_type',$ed_type)
-
             ->with('domain_type',$domain_type);
     }
 

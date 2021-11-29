@@ -176,5 +176,4 @@
 	});
 	$("#exp_comp").delayKeyup(function() {searchAjax("#exp_comp","exp","#expResults");},700);$("#exp_comp").blur(function(){$("#expResults").fadeOut(500);}).focus(function() {$("#expResults").show();});
 </script>
-<script   type="text/javascript" src="{{asset('js/app.js')}}"></script>
 @stop

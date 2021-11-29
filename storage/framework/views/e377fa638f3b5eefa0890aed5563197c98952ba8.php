@@ -357,12 +357,11 @@
     </div>
 </footer>
 
-<script    type="text/javascript" src="<?php echo e(asset('js/jquery.js')); ?>"></script>
-
-<script    type="text/javascript" src="<?php echo e(asset('js/facebox/facebox.js')); ?>"></script>
+<script    type="text/javascript" src="<?php echo e(asset('js/facebox/jquery.js')); ?>"></script>
 
 
-<script type="text/javascript" src="<?php echo e(asset('js/index.js')); ?>" defer  ></script>
+
+<script type="text/javascript" src="<?php echo e(asset('js/index.js')); ?>" async ></script>
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         $('a[class*=facebox]').facebox({

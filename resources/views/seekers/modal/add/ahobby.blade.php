@@ -52,5 +52,4 @@
     $("#hobby_name").delayKeyup(function() {searchAjax("#hobby_name","hobby","#hobbyResults");},700);$("#hobby_name").blur(function(){$("#hobbyResults").fadeOut(500);}).focus(function() {$("#hobbyResult").show();});
 
 </script>
-<script   type="text/javascript" src="{{asset('js/app.js')}}"></script>
 @stop
