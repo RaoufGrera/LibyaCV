@@ -344,7 +344,7 @@
      </div>
 
     <div class="col-md-4 col-md-offset-3">
-        <div class="l"><a href="https://www.facebook.com/libyacv" class="icon-facebook-official"  ></a> <a href="https://t.me/libyajobs" class="icon-telegram"></a> </div>
+        <div class="l"><a href="https://www.facebook.com/libyacv" class="icon-facebook-official"  ></a> </div>
         <a style="display: block;text-align: center; margin-bottom: 4px;" href='https://play.google.com/store/apps/details?id=libyacvpro.libya_cv'><img width="180px" alt='Get it on Google Play' src='<?php echo e(asset('images/simple/en_badge.png')); ?>'/></a>
 
         <span>info@libyacv.com</span>
@@ -353,15 +353,16 @@
 
     <div class="col-md-12 f">
         <hr style="color:#ddd">
-        جميع الحقوق محفوظة Libyacv - 2019
+        جميع الحقوق محفوظة Libyacv - 2021
     </div>
 </footer>
 
-<script    type="text/javascript" src="<?php echo e(asset('js/facebox/jquery.js')); ?>"></script>
+<script    type="text/javascript" src="<?php echo e(asset('js/jquery.js')); ?>"></script>
+
+<script    type="text/javascript" src="<?php echo e(asset('js/facebox/facebox.js')); ?>"></script>
 
 
-
-<script type="text/javascript" src="<?php echo e(asset('js/index.js')); ?>" async ></script>
+<script type="text/javascript" src="<?php echo e(asset('js/index.js')); ?>" defer  ></script>
 <script type="text/javascript">
     jQuery(document).ready(function ($) {
         $('a[class*=facebox]').facebox({
