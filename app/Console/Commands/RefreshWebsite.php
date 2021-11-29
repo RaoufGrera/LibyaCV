@@ -3,6 +3,8 @@
 namespace App\Console\Commands;
 
 use App\MainHelper;
+use App\Helpers;
+
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Log;
 
@@ -40,6 +42,7 @@ class RefreshWebsite extends Command
     public function handle()
     {
         MainHelper::RefreshWebsite();
+        Helpers::ManageRedis('CreateRedis');
      //   Log::info("Refresh Website is Work");
     }
 }
