@@ -97,7 +97,7 @@ class SettingController extends Controller
         DB::table('seekers')
             ->where('seeker_id', $seekers_id)
             ->delete();
-        Helpers::getDataSeeker('seekers',$seekers_id,true);
+     //   Helpers::getDataSeeker('seekers',$seekers_id,true);
 
         return redirect('/logout');
     }
