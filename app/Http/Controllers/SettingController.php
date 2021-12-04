@@ -99,7 +99,7 @@ class SettingController extends Controller
             ->delete();
      //   Helpers::getDataSeeker('seekers',$seekers_id,true);
 
-        return redirect('/logout');
+        return redirect('/login');
     }
     public function changeCV(Request $request)
     {
