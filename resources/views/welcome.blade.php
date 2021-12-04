@@ -24,7 +24,7 @@ $notes = $company->getNote();
                 <div  @if( !Auth::guard('users')->check()) class="col-md-6 " @else class="col-md-12" @endif >
 
 
-                                   <h1 class="center" style="font-size: 28px;    color:  #373737; ">وظائف شاغرة في ليبيا</h1>
+                                   <h1 class="center" style="font-size: 28px;    color:  #373737; ">وظائف شاغرة في </h1>
                     <p style="text-align: center;font-size: 17px; color: #373737;"><span itemprop="description">نشر وبحث عن وظائف شاغرة في ليبيا، وتصميم السيرة الذاتية باللغة العربية.</span></p>
 
                     <div style="display: block;text-align: center; margin-bottom: 8px">

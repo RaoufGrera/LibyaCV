@@ -24,8 +24,8 @@ $notes = $company->getNote();
                 <div  <?php if( !Auth::guard('users')->check()): ?> class="col-md-6 " <?php else: ?> class="col-md-12" <?php endif; ?> >
 
 
-                                   <h1 class="center" style="font-size: 28px;    color:  #4b5259; ">وظائف شاغرة في ليبيا</h1>
-                    <p style="text-align: center;font-size: 16px; color: #4b5259;"><span itemprop="description">نشر وبحث عن وظائف شاغرة في ليبيا، وتصميم السيرة الذاتية باللغة العربية.</span></p>
+                                   <h1 class="center" style="font-size: 28px;    color:  #373737; ">وظائف شاغرة في ليبيا</h1>
+                    <p style="text-align: center;font-size: 17px; color: #373737;"><span itemprop="description">نشر وبحث عن وظائف شاغرة في ليبيا، وتصميم السيرة الذاتية باللغة العربية.</span></p>
 
                     <div style="display: block;text-align: center; margin-bottom: 8px">
                     <a  href='https://play.google.com/store/apps/details?id=libyacvpro.libya_cv'><img style="margin: 9px;" width="194px" alt='Get it on Google Play' src='<?php echo e(asset('images/simple/en_badge.png')); ?>'/></a>
