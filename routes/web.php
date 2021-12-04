@@ -182,6 +182,7 @@ Route::group(['middleware' => 'users'], function () {
     Route::patch(PATH_SEEKER . '/settings/cv', 'SettingController@changeCV');
     Route::patch(PATH_SEEKER . '/settings/image', 'SettingController@changeImage');
     Route::patch(PATH_SEEKER . '/settings/phone', 'SettingController@changePhone');
+    Route::patch(PATH_SEEKER . '/settings/delete', 'SettingController@delete');
 
     //SHOP
     Route::get(PATH_SEEKER . '/store', 'SeekersController@showStore');

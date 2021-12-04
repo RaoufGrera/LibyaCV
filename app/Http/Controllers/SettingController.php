@@ -88,6 +88,19 @@ class SettingController extends Controller
         return redirect('/profile/settings')->with('error', 'لم يتم تغيير كلمة السر.');
     }
 
+    public function delete(Request $request)
+    {
+        $seekers_id = session('seeker_id');
+
+
+ 
+        DB::table('seekers')
+            ->where('seeker_id', $seekers_id)
+            ->delete();
+        Helpers::getDataSeeker('seekers',$seekers_id,true);
+
+        return redirect('/logout');
+    }
     public function changeCV(Request $request)
     {
         $seekers_id = session('seeker_id');

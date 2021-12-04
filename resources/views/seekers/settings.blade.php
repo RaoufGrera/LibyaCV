@@ -58,6 +58,24 @@
                         </div>
                         <br>
                         <br>
+                        <h4>حذف السيرة الذاتية</h4>
+                        <hr>
+
+                        <div  class="form-group">
+                            {!! Form::open(['url'=>'/profile/settings/delete','class'=>'form-style-2','method'=>'PATCH','autocomplete'=>'off']) !!}
+                            <table>
+                                <tbody>
+
+                           
+                            <tr>
+                                <td></td>
+                                <td>   <input name="inserted" type="submit" value="حذف الحساب" class="btn btn-danger btn-block"/></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                            {!! Form::close() !!}
+                        </div>
+                        <br>
                         <h4>أعدادات السيرة الذاتية</h4>
                         <hr>
 
