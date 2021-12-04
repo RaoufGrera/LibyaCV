@@ -64,7 +64,7 @@
 
         gtag('config', 'UA-118379751-1');
     </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {{-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-9929016091047307",
@@ -73,7 +73,7 @@
 </script>
 
 
-    {{--  <script>
+     <script>
          (adsbygoogle = window.adsbygoogle || []).push({
              google_ad_client: "ca-pub-9929016091047307",
              enable_page_level_ads: true
