@@ -18,7 +18,7 @@
 						</td>
 						<td>
 							<div class="input-group">
-							<input id="hobby_name"  autocomplete="off" class="form-control"  name="hobby_name" type="text" value="{{ $seeker_hobby->hobby_name }}"  maxlength="60" required  placeholder="مثل: الشطرنج، القراءة..." />
+							<input id="hobby_name"  autocomplete="off" class="form-control"  name="hobby_name" type="text" value="{{ $seeker_hobby->hobby_name }}"  maxlength="200" required  placeholder="مثل: الشطرنج، القراءة..." />
 							<ul id="hobbyResults" class="lists">
 
 							</ul>

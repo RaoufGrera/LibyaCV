@@ -18,7 +18,7 @@
 						</td>
 						<td>
 							<div class="input-group">
-								<input class="form-control" autocomplete="off" id="cert_name" name="cert_name" type="text" required   value="{{ $seeker_cert->cert_name }}" maxlength="120" placeholder="اسم الشهادة"   />
+								<input class="form-control" autocomplete="off" id="cert_name" name="cert_name" type="text" required   value="{{ $seeker_cert->cert_name }}" maxlength="200" placeholder="اسم الشهادة"   />
 								<ul id="certResults" class="lists">
 
 								</ul>

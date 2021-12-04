@@ -17,7 +17,7 @@
 							</label>
 						</td>
 						<td>
-							<input id="skills_name" name="skills_name" value="{{ $seeker_skills->skills_name }}" type="text"  maxlength="60" required  placeholder="اسم المهارة"  />
+							<input id="skills_name" name="skills_name" value="{{ $seeker_skills->skills_name }}" type="text"  maxlength="200" required  placeholder="اسم المهارة"  />
 
 						</td>
  								<td><div  class="tooltip skills_name_val validation">

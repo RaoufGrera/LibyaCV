@@ -16,7 +16,7 @@
 
              <tr>
                  <td><label for="about">عنوان مختصر</label></td>
-                 <td><input id="about" class="form-control" value="{{ $info->about }}"  maxlength="60" name="about" type="text" /></td>
+                 <td><input id="about" class="form-control" value="{{ $info->about }}"  maxlength="200" name="about" type="text" /></td>
              </tr>
              <tr>
                  <td>

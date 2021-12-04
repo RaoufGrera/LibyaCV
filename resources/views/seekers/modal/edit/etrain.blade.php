@@ -18,7 +18,7 @@
                 </td>
                 <td>
                     <input id="train_name" name="train_name" type="text" value="{{ $seeker_train->train_name }}"
-                           maxlength="60" required placeholder="اسم التدريب"/>
+                           maxlength="200" required placeholder="اسم التدريب"/>
                 </td>
                 <td>
                     <div class="tooltip train_name_val validation">

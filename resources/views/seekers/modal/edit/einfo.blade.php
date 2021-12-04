@@ -17,7 +17,7 @@
 							</label>
 						</td>
 						<td>
-							<input class="form-control" id="info_name" name="info_name" type="text" value="{{ $seeker_info->info_name }}" maxlength="60" required  placeholder="اسم المعلومة"  />
+							<input class="form-control" id="info_name" name="info_name" type="text" value="{{ $seeker_info->info_name }}" maxlength="200" required  placeholder="اسم المعلومة"  />
 							</td>
 						<td><div  class="tooltip cert_name_val validation">
 
