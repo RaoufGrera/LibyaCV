@@ -282,23 +282,7 @@ function is_english($str)
                     <br>
 
 
-                        <a href="/free-cv-template/arabic-resume">
-                            <div class="divblog">
-                                <img width="100%" src="<?php echo e(asset('images/blog/blog201922.png')); ?>">
-                                <span class="spanblog"><h2 class="titleblog">نماذج سيرة ذاتية احترافية</h2> </span>
-                            </div>
-                        </a>
-<br>
-                    <a href="/free-cv-template/arabic-resume">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/blogg22.png')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">نماذج سيرة ذاتية باللغة العربية</h2> </span>
-                        </div>
-                    </a>
-
-
-
-                    <br>
+                       
 
 
                 </div>
@@ -327,7 +311,7 @@ function is_english($str)
 
 
 
-         <div class="col-lg-6">
+         <div class="col-lg-9">
 
 <Style>
     .ccount{

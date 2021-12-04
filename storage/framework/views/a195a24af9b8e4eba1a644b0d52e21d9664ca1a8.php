@@ -359,24 +359,7 @@ if((isset($_GET['domain'])) ){
 <br>
 
                 </div>
-                <br>
-
-
-                <a href="/free-cv-template">
-                    <div class="divblog">
-                        <img width="100%" src="<?php echo e(asset('images/blog/blog201922.png')); ?>">
-                        <span class="spanblog"><h2 class="titleblog">نماذج سيرة ذاتية احترافية</h2> </span>
-                    </div>
-                </a>
-                <br>
-                <a href="/free-cv-template">
-                    <div class="divblog">
-                        <img width="100%" src="<?php echo e(asset('images/blog/blogg22.png')); ?>">
-                        <span class="spanblog"><h2 class="titleblog">نماذج سيرة ذاتية باللغة العربية</h2> </span>
-                    </div>
-                </a>
-
-
+                
 
                 <br>
             </div>
@@ -384,7 +367,7 @@ if((isset($_GET['domain'])) ){
 
     h1{ margin: 0;}
 </style>
-            <div class="col-lg-6">
+            <div class="col-lg-9">
 <br>
                 <h1 style="margin-top: 15px;margin-bottom: 15px" class="title-page"><?php echo e($titleCity); ?> <?php echo e($titleDomain); ?></h1>
 
@@ -539,29 +522,7 @@ if((isset($_GET['domain'])) ){
                 </div>
 
             </div>
-            <div class="col-lg-3" style="border-right: 1px solid #ccc">
-                <br>
-                <h2 class="center">نماذج سيرة ذاتية</h2>
-
-                <div class="col-lg-12">
-
-                    <a href="/free-cv-template/english-resume">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/cveng.png')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Cool free english resume</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/template_arabic_cv/download">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/template_arabic.jpg')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-
-
-                </div>
-            </div>
+           
             <nav id="bottom" class="bottom t">
                 <span class="clicker   icon-up-open"></span>
 

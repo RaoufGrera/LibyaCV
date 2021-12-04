@@ -30,7 +30,8 @@ $notes = $company->getNote();
                     <div style="display: block;text-align: center; margin-bottom: 8px">
                     <a  href='https://play.google.com/store/apps/details?id=libyacvpro.libya_cv'><img style="margin: 9px;" width="194px" alt='Get it on Google Play' src='<?php echo e(asset('images/simple/en_badge.png')); ?>'/></a>
                     <a href="https://facebook.com/LibyaCV" title="Facebook" style="    padding: 16px 16px;" class="btn btn-facebook btn-lg"><i class="icon-facebook-official"></i> تابعنا علي فيسبوك</a>
-
+                    <a href="/donate" title="Facebook" style="/* padding: 16px 16px; */margin: 4px;" class="btn btn-default btn-lg"><span style="
+                        font-size: 18px;font-weight: 500;">Donate cryptocurrency</span><br><img style="/* margin: 9px; */width: 60px;" width="194px" alt="Donate cryptocurrency" src="<?php echo e(asset('images/simple/clog.png')); ?>"> </a>
                     </div>
                  </div>
     <?php if( !Auth::guard('users')->check()): ?>

@@ -52,6 +52,8 @@ Route::get('price/florida', 'FloridaController@index');
 
 
 Route::get('policy', 'MainController@policy');
+Route::get('donate', 'MainController@donate');
+
 Route::get('terms', 'MainController@terms');
 
 Route::get('login/facebook', 'SocialiteAuth\AuthController@redirectToProvider');

@@ -10,7 +10,10 @@ class MainController extends Controller
 
         return view('main.policy');
     }
+    public function donate(){
 
+        return view('main.donate');
+    }
     public function terms(){
 
        return view('main.terms');
