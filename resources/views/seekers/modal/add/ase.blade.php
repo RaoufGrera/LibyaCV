@@ -18,7 +18,7 @@
                 </td>
                 <td>
 
-                    <input class="form-control" autocomplete="off" id="title" name="title" type="text" required   value="" maxlength="120" placeholder="العنوان"/>
+                    <input class="form-control" autocomplete="off" id="title" name="title" type="text" required   value="" maxlength="200" placeholder="العنوان"/>
 
                    </td>
 

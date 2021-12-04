@@ -16,7 +16,7 @@
 						</td>
 						<td>
 							<div class="input-group">
-							<input id="exp_comp" name="exp_comp" type="text" class="form-control" autocomplete="off"  value="" maxlength="120" placeholder="الشركة"/>
+							<input id="exp_comp" name="exp_comp" type="text" class="form-control" autocomplete="off"  value="" maxlength="200" placeholder="الشركة"/>
 							<ul id="expResults" class="lists">
 
 							</ul>

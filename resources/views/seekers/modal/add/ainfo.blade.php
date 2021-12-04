@@ -17,7 +17,7 @@
                         </label>
                     </td>
                     <td>
-                        <input class="form-control" id="info_name" name="info_name" type="text" maxlength="60" required
+                        <input class="form-control" id="info_name" name="info_name" type="text" maxlength="200" required
                                placeholder="اسم المعلومة"/>
                     </td>
                     <td>

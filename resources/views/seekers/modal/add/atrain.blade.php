@@ -18,7 +18,7 @@
 							</label>
 						</td>
 						<td>
-							<input id="train_name" name="train_name" type="text"  maxlength="60" required  placeholder="اسم التدريب"  />
+							<input id="train_name" name="train_name" type="text"  maxlength="200" required  placeholder="اسم التدريب"  />
 							</td>
 						<td><div  class="tooltip train_name_val validation">
 
