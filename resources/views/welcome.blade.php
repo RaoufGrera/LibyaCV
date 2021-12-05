@@ -114,7 +114,7 @@ $notes = $company->getNote();
 
                                     <td>   <input type="submit" value="إنشاء حساب" class="btn btn-block btn-success"/>
                                         <p style="margin-top: 4px;"> إذا لديك حساب اضغظ <a href="/login">دخول</a>  او <a href="/password/email">استعادة كلمة السر</a></p>
-                                       <!-- <a href="/login/facebook" class="btn btn-face font-md btn-block icon-facebook-official"  >تسجيل عن طريق الفيسبوك</a> -->
+                                        <a href="/login/facebook" class="btn btn-face font-md btn-block icon-facebook-official"  >تسجيل عن طريق الفيسبوك</a> 
                                         <a href="/login/google" class="btn   btn-block font-md  btn-danger icon-gplus-squared" >تسجيل عن طريق الجوجل</a>
                                     </td>
 
