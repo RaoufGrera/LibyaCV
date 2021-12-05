@@ -52,7 +52,11 @@ Route::get('price/florida', 'FloridaController@index');
 
 
 Route::get('policy', 'MainController@policy');
+
+Route::get('privacy_policy', 'MainController@policy');
+
 Route::get('donate', 'MainController@donate');
+Route::get('term', 'MainController@terms');
 
 Route::get('terms', 'MainController@terms');
 
