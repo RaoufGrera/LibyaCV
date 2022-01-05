@@ -22,7 +22,7 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         //  NoteDescAndroid::class,
         RefreshWebsite::class,
-       // AddJobs::class,
+        AddJobs::class,
       //  SendWeb::class
 
     ];

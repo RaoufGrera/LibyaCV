@@ -49,7 +49,8 @@ Route::get('customer/change', 'ServicesController@changeCustomer');
 /* florida Controller */
 Route::get('price/florida', 'FloridaController@index');
 
-
+Route::get('file/jobs', 'FileController@index');
+Route::get('file/insert', 'FileController@postInsert');
 
 Route::get('policy', 'MainController@policy');
 

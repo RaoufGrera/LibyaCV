@@ -64,7 +64,7 @@
 
         gtag('config', 'UA-118379751-1');
     </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {{-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({
           google_ad_client: "ca-pub-9929016091047307",
@@ -78,7 +78,7 @@
              google_ad_client: "ca-pub-9929016091047307",
              enable_page_level_ads: true
          });
-     </script>
+     </script>--}}
 
 </head>
 <body>
@@ -133,86 +133,7 @@
 
             </ul>
 
-            <div id="searchPage">
-                {!! Form::open(array('class'=>'navbar-form navbar-left','url'=>'/search', 'method'=>'POST')) !!}
-
-
-                <?php
-                $str = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-                $last = explode("/", $str, 3);
-                $s_url = 'الوظائف';
-                $s_p = "...عنوان الوظيفة";
-
-                $job = ($last[1] == 'job' ? 'الوظائف' : '');
-                if (isset($last[1])) {
-                    switch ($last[1]) {
-                        case 'cv':
-                        case 'user':
-                            $s_url = 'السير الذاتية';
-                            $s_p = "اسم الباحث عن عمل";
-                            break;
-                        case 'company' :
-                            $s_url = 'الشركات';
-                            $s_p = "اسم الشركة";
-                            break;
-                        case 'job' :
-                            $s_url = 'الوظائف';
-                            $s_p = "عنوان الوظيفة";
-                            break;
-
-
-
-                        default :
-                            $s_url = 'الوظائف';
-                            $s_p = "عنوان الوظيفة...";
-                    }
-                }
-                ?>
-                <div class="input-group">
-                    <div class="input-group-btn">
-                        <div class="search-dropdown">
-                            <button  style="border-color: #b2b2b2" class="button dropdown-toggle" type="button">
-                                <span class="toggle-active" style="display: inline-block;">{{ $s_url }}</span>
-                                <span class="caret"></span>
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a href="#">الوظائف</a></li>
-                                <li><a href="#">الشركات</a></li>
-                                 <li class="menu-active"><a href="#">السير الذاتية</a></li>
-
-
-                            </ul>
-                        </div>
-                    </div>
-
-                    <input
-                            class="form-control"
-                            placeholder='{{ $s_p }}'
-                            type="text"
-                            name="keyword"
-                            style="border-color: #b2b2b2;"
-                            id="keyword"
-                            autocomplete="off">
-                    <input type="hidden" value="{{ $s_url }}"  name="stringHide" id="stringHide" class="form-control">
-
-                    <ul id="results" class="lists">
-
-                    </ul>
-
-                    <div class="input-group-btn">
-                        <img id="s_l" class="sh" src="{{asset('images/ajax-loader.gif')}}"/>
-
-                        <button type="submit" class="btn icon-search " style="     border: 1px solid #b2b2b2;
-    background-color: #f6f6f6;
-    padding-right: 15px;
-    padding-left: 15px;">
-                        </button>
-                    </div>
-                </div>
-
-
-                {!! Form::close() !!}
-            </div>
+           
 
 <style>
     .ser{
