@@ -279,33 +279,14 @@ if((isset($_GET['domain'])) ){
 
                 </div>
                 <br>
-                <h2 class="center">نماذج سيرة ذاتية</h2>
-
-                <div class="col-lg-12">
-
-                    <a href="/free-cv-template/english-resume">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/cveng.png')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Cool free english resume</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/template_arabic_cv/download">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/template_arabic.jpg')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-
-
-                </div><br>
+           
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-9">
 
 
                     <style>
-                        .ccount{
+                    /*    .ccount{
                             font-size: 14px;
 
                             background: #F44336;
@@ -320,7 +301,7 @@ if((isset($_GET['domain'])) ){
                         .cv-body{
                             border-bottom: 1px solid #cecece;
                             padding: 10px;
-                           /* background: #fffde7;*/
+                           /* background: #fffde7; /
                             line-height: 1.9;
                         }
                         .pcomp{
@@ -349,9 +330,50 @@ if((isset($_GET['domain'])) ){
                         .view{
                             width: 90px;height: 90px;
                         }
-.h2{margin: 0}
+.h2{margin: 0}*/
                     </style>
 
+<Style>
+          .ltr{
+                     direction: ltr;
+                 }
+                 .imgjob-view{
+                     width: 66px;
+                     height: 66px;
+                   
+                     padding: 4px;
+                    /* border: 1px solid #bfbfbf;*/
+                 }
+                 .line{
+                     line-height: 2.2;
+                 }
+                 #cvname {
+                     font-size:15px;
+                     line-height: 1.6;
+                 }
+    .ccount{
+        font-size: 14px;
+
+        background: #F44336;
+        color: #fff;
+
+        margin-right: 8px;
+        padding: 1px 12px;
+        opacity: 0.8;
+
+        border-radius: 6px;
+    }
+    .display{
+       margin: 0px;
+    }
+    .imgjob-view{
+        margin-top: -8px;
+
+    }
+    .pcomp{
+        margin-top: 5px;
+    }
+</Style>
                     <h5 class="title-page"> الشركات<span  class="ccount"><?php echo e($jobCount); ?> شركة </span></h5>
                     <br>
 
@@ -365,23 +387,31 @@ if((isset($_GET['domain'])) ){
 
 
 
-                                <div class="col-md-12  ">
-                                    <div class="cv-body " >
+                            <div class="job-div">
+                                <div class="cv-body">
+                                    <div class="devimgseeker">
 
-                                        <div href="/c/<?php echo e($item['comp_user_name']); ?>/#job" class="center">
-                                            <a title="<?php echo e($item['comp_name']); ?>" href="/c/<?php echo e($item['comp_user_name']); ?>"><img class="view"
+                                        
+                                            <a title="<?php echo e($item['comp_name']); ?>" href="/c/<?php echo e($item['comp_user_name']); ?>"><img class="imgjob-view"
                                                                                               src= <?php if($item['image'] !=""): ?><?php echo e(asset('images/company/140px_'.$item['code_image'].'_'.$item['image'])); ?> <?php else: ?> <?php echo e(asset('images/simple/140px_company.png')); ?> <?php endif; ?> /></a>
-                                            </div>
+                                         </div><div class="line">
 
 
-                                                    <h2 class="display center"><a  id="cvname" href="/c/<?php echo e($item['comp_user_name']); ?>"><?php echo e($item['comp_name']); ?> </a> <?php if($item['isstar'] ==1): ?> <span class="icon-star star">مميز</span> <?php endif; ?> </h2><a  class="icon-location <?php echo e($item['city_color']); ?> block" style="color: #FFFFFF;" href="?city=<?php echo e($item['city_name']); ?>"><?php echo e($item['city_name']); ?></a> <a class="icon-th block" style="color: #3c3c3c" href="?domain=<?php echo e($item['domain_name']); ?>"> <?php echo e($item['domain_name']); ?></a>
-                                        <?php if( $item['phone'] != ""): ?><span class="block icon-mobile"><span> <?php echo e($item['phone']); ?></span> </span><?php endif; ?>
+                                                    <h2 class="display "><a  id="cvname" href="/c/<?php echo e($item['comp_user_name']); ?>"><?php echo e($item['comp_name']); ?> </a> <?php if($item['isstar'] ==1): ?> <span class="icon-star star">مميز</span> <?php endif; ?> </h2>
+                                                    <span class="r"> <span class="texts ">
+                                                    <a  class="icon-location <?php echo e($item['city_color']); ?> block" style="color: #FFFFFF;" href="?city=<?php echo e($item['city_name']); ?>"><?php echo e($item['city_name']); ?></a> <a class="icon-th block" style="color: #3c3c3c" href="?domain=<?php echo e($item['domain_name']); ?>"> <?php echo e($item['domain_name']); ?></a></span>
+                                        <!-- <?php if( $item['phone'] != ""): ?><span class="block icon-mobile"><span> <?php echo e($item['phone']); ?></span> </span><?php endif; ?>
                                         <?php if($item['email'] != ""): ?><span class="block icon-mail"><?php echo e($item['email']); ?></span> <?php endif; ?>
                                         <?php if($item['facebook']!= "" && $item['facebook']!= "https://facebook.com/"): ?>   <span class="block icon-facebook-official"><a  style="color: #333333;" href="<?php echo e($item['facebook']); ?>"><?php echo e(str_limit($item['facebook'], $limit = 26, $end = '...')); ?></a></span> <?php endif; ?>
                                         <?php if($item['url'] != "" && $item['url'] != "https://"): ?>     <a  style="color: #333333;" class="block icon-globe" href="<?php echo e($item['url']); ?>"><?php echo e(str_limit($item['url'], $limit = 26, $end = '...')); ?> </a>  <?php endif; ?>
-
+                                        -->
                                         <span class="texts"> <i class="icon-heart" ></i><?php echo e($item['see_it']); ?></span>
-                                        <a href="/c/<?php echo e($item['comp_user_name']); ?>/#job" class=" t"> <img class="ser" src="<?php echo e(Asset('images/home/ser.png')); ?>" /> <?php echo e($item['job_count']); ?></a>
+                                        <a href="/c/<?php echo e($item['comp_user_name']); ?>/#job" class=" t"> <img class="ser" src="<?php echo e(Asset('images/home/ser.png')); ?>" /> <?php echo e($item['job_count']); ?></a></span>
+
+                                     
+                             </div>
+
+
 
 
 
@@ -524,36 +554,7 @@ $("#moreImg").hide();
 
 <a class="facebox" style="display: none"></a>
 </div>
-            <div class="col-lg-3" style="border-right: 1px solid #ccc">
-                <br>
-                <h2 class="center">نماذج سيرة ذاتية</h2>
-
-                <div class="col-lg-12">
-
-                    <a href="/free-cv-template/english-resume">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/cveng.png')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Cool free english resume</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/free_resume_with_photo_english_grey/download">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/template2.jpg')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-                    <a href="/files/template_arabic_cv/download">
-                        <div class="divblog">
-                            <img width="100%" src="<?php echo e(asset('images/blog/template_arabic.jpg')); ?>">
-                            <span class="spanblog"><h2 class="titleblog">Download - تحميل</h2> </span>
-                        </div>
-                    </a>
-                    <br>
-
-                </div>
-            </div>
+            
 </div>
 <nav id="bottom" class="bottom t">
 <span class="clicker   icon-up-open"></span>

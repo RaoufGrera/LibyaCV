@@ -284,7 +284,7 @@ if((isset($_GET['domain'])) ){
 
 
                     <style>
-                        .ccount{
+                    /*    .ccount{
                             font-size: 14px;
 
                             background: #F44336;
@@ -299,7 +299,7 @@ if((isset($_GET['domain'])) ){
                         .cv-body{
                             border-bottom: 1px solid #cecece;
                             padding: 10px;
-                           /* background: #fffde7;*/
+                           /* background: #fffde7; /
                             line-height: 1.9;
                         }
                         .pcomp{
@@ -328,9 +328,50 @@ if((isset($_GET['domain'])) ){
                         .view{
                             width: 90px;height: 90px;
                         }
-.h2{margin: 0}
+.h2{margin: 0}*/
                     </style>
 
+<Style>
+          .ltr{
+                     direction: ltr;
+                 }
+                 .imgjob-view{
+                     width: 66px;
+                     height: 66px;
+                   
+                     padding: 4px;
+                    /* border: 1px solid #bfbfbf;*/
+                 }
+                 .line{
+                     line-height: 2.2;
+                 }
+                 #cvname {
+                     font-size:15px;
+                     line-height: 1.6;
+                 }
+    .ccount{
+        font-size: 14px;
+
+        background: #F44336;
+        color: #fff;
+
+        margin-right: 8px;
+        padding: 1px 12px;
+        opacity: 0.8;
+
+        border-radius: 6px;
+    }
+    .display{
+       margin: 0px;
+    }
+    .imgjob-view{
+        margin-top: -8px;
+
+    }
+    .pcomp{
+        margin-top: 5px;
+    }
+</Style>
                     <h5 class="title-page"> الشركات<span  class="ccount">{{$jobCount}} شركة </span></h5>
                     <br>
 
@@ -344,23 +385,31 @@ if((isset($_GET['domain'])) ){
 
 
 
-                                <div class="col-md-12  ">
-                                    <div class="cv-body " >
+                            <div class="job-div">
+                                <div class="cv-body">
+                                    <div class="devimgseeker">
 
-                                        <div href="/c/{{ $item['comp_user_name'] }}/#job" class="center">
-                                            <a title="{{ $item['comp_name'] }}" href="/c/{{ $item['comp_user_name'] }}"><img class="view"
+                                        
+                                            <a title="{{ $item['comp_name'] }}" href="/c/{{ $item['comp_user_name'] }}"><img class="imgjob-view"
                                                                                               src= @if($item['image'] !=""){{asset('images/company/140px_'.$item['code_image'].'_'.$item['image'])}} @else {{asset('images/simple/140px_company.png')}} @endif /></a>
-                                            </div>
+                                         </div><div class="line">
 
 
-                                                    <h2 class="display center"><a  id="cvname" href="/c/{{ $item['comp_user_name'] }}">{{$item['comp_name']}} </a> @if($item['isstar'] ==1) <span class="icon-star star">مميز</span> @endif </h2><a  class="icon-location {{ $item['city_color'] }} block" style="color: #FFFFFF;" href="?city={{ $item['city_name'] }}">{{$item['city_name']}}</a> <a class="icon-th block" style="color: #3c3c3c" href="?domain={{ $item['domain_name'] }}"> {{$item['domain_name']}}</a>
-                                        @if( $item['phone'] != "")<span class="block icon-mobile"><span> {{ $item['phone'] }}</span> </span>@endif
+                                                    <h2 class="display "><a  id="cvname" href="/c/{{ $item['comp_user_name'] }}">{{$item['comp_name']}} </a> @if($item['isstar'] ==1) <span class="icon-star star">مميز</span> @endif </h2>
+                                                    <span class="r"> <span class="texts ">
+                                                    <a  class="icon-location {{ $item['city_color'] }} block" style="color: #FFFFFF;" href="?city={{ $item['city_name'] }}">{{$item['city_name']}}</a> <a class="icon-th block" style="color: #3c3c3c" href="?domain={{ $item['domain_name'] }}"> {{$item['domain_name']}}</a></span>
+                                        <!-- @if( $item['phone'] != "")<span class="block icon-mobile"><span> {{ $item['phone'] }}</span> </span>@endif
                                         @if($item['email'] != "")<span class="block icon-mail">{{ $item['email'] }}</span> @endif
                                         @if($item['facebook']!= "" && $item['facebook']!= "https://facebook.com/")   <span class="block icon-facebook-official"><a  style="color: #333333;" href="{{ $item['facebook'] }}">{{ str_limit($item['facebook'], $limit = 26, $end = '...')  }}</a></span> @endif
                                         @if($item['url'] != "" && $item['url'] != "https://")     <a  style="color: #333333;" class="block icon-globe" href="{{ $item['url'] }}">{{ str_limit($item['url'], $limit = 26, $end = '...') }} </a>  @endif
-
+                                        -->
                                         <span class="texts"> <i class="icon-heart" ></i>{{ $item['see_it'] }}</span>
-                                        <a href="/c/{{ $item['comp_user_name'] }}/#job" class=" t"> <img class="ser" src="{{ Asset('images/home/ser.png') }}" /> {{$item['job_count']}}</a>
+                                        <a href="/c/{{ $item['comp_user_name'] }}/#job" class=" t"> <img class="ser" src="{{ Asset('images/home/ser.png') }}" /> {{$item['job_count']}}</a></span>
+
+                                     
+                             </div>
+
+
 
 
 
