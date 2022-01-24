@@ -1,201 +1,405 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    <url>
-        <loc>https://www.libyacv.com/</loc>
-        <lastmod>2019-10-02T00:59:23+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/?city=%D8%A7%D9%84%D8%B2%D8%A7%D9%88%D9%8A%D8%A9</loc>
-        <lastmod>2019-10-02T00:59:26+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search</loc>
-        <lastmod>2019-10-02T00:59:24+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1</loc>
-        <lastmod>2019-10-02T00:59:32+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%A7%D9%84%D8%AE%D9%85%D8%B3</loc>
-        <lastmod>2019-10-02T00:59:30+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%A7%D9%84%D8%B2%D8%A7%D9%88%D9%8A%D8%A9</loc>
-        <lastmod>2019-10-02T00:59:31+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%A8%D9%86%D8%BA%D8%A7%D8%B2%D9%8A</loc>
-        <lastmod>2019-10-02T00:59:29+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%AA%D8%B1%D9%87%D9%88%D9%86%D8%A9</loc>
-        <lastmod>2019-10-02T00:59:32+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%B2%D9%84%D9%8A%D8%AA%D9%86</loc>
-        <lastmod>2019-10-02T00:59:31+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%B3%D8%A8%D9%87%D8%A7</loc>
-        <lastmod>2019-10-02T00:59:31+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%B7%D8%B1%D8%A7%D8%A8%D9%84%D8%B3</loc>
-        <lastmod>2019-10-02T00:59:29+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D8%BA%D8%B1%D9%8A%D8%A7%D9%86</loc>
-        <lastmod>2019-10-02T00:59:33+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?city=%D9%85%D8%B5%D8%B1%D8%A7%D8%AA%D9%87</loc>
-        <lastmod>2019-10-02T00:59:30+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9/%D8%B3%D9%83%D8%B1%D8%AA%D8%A7%D8%B1%D9%8A%D8%A9-</loc>
-        <lastmod>2019-10-02T00:59:34+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D8%A5%D8%B9%D9%84%D8%A7%D9%85-/%D8%AF%D8%B9%D8%A7%D9%8A%D8%A9</loc>
-        <lastmod>2019-10-02T00:59:35+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D8%AA%D8%AF%D8%B1%D9%8A%D8%B3-/-%D8%AA%D8%AF%D8%B1%D9%8A%D8%A8</loc>
-        <lastmod>2019-10-02T00:59:34+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D8%AA%D9%82%D9%86%D9%8A%D8%A9-%D9%85%D8%B9%D9%84%D9%88%D9%85%D8%A7%D8%AA</loc>
-        <lastmod>2019-10-02T00:59:33+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D8%B3%D8%A7%D8%A6%D9%82%D9%8A%D9%86/%D8%AA%D9%88%D8%B5%D9%8A%D9%84</loc>
-        <lastmod>2019-10-02T00:59:34+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D8%B7%D8%A8-/-%D8%AA%D9%85%D8%B1%D9%8A%D8%B6</loc>
-        <lastmod>2019-10-02T00:59:35+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D9%85%D8%A8%D9%8A%D8%B9%D8%A7%D8%AA/%D8%AA%D8%B3%D9%88%D9%8A%D9%82</loc>
-        <lastmod>2019-10-02T00:59:34+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/company/search?domain=%D9%87%D9%86%D8%AF%D8%B3%D8%A9</loc>
-        <lastmod>2019-10-02T00:59:33+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/cv/search</loc>
-        <lastmod>2019-10-02T00:59:32+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3291/%D9%85%D8_%D8%A7%D8%B3%D8%A8-alc-meacom</loc>
-        <lastmod>2019-10-02T00:59:27+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3292/hr-admin-finance-assistant-intersos-libya</loc>
-        <lastmod>2019-10-02T00:59:27+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3293/logistic-assistant-intersos</loc>
-        <lastmod>2019-10-02T00:59:27+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3294/project-manager-protection-intersos</loc>
-        <lastmod>2019-10-02T00:59:26+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3295/project-telecoms-installation-manager-omniacom</loc>
-        <lastmod>2019-10-02T00:59:25+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3298/architect-inabah-company</loc>
-        <lastmod>2019-10-02T00:59:30+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/3300/finishing-manager-inabah-company</loc>
-        <lastmod>2019-10-02T00:59:29+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/job/search</loc>
-        <lastmod>2019-10-02T00:59:26+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/policy</loc>
-        <lastmod>2019-10-02T00:59:28+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/services/search</loc>
-        <lastmod>2019-10-02T00:59:25+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://www.libyacv.com/terms</loc>
-        <lastmod>2019-10-02T00:59:28+02:00</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
-</urlset>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>وظائف - Libyanjobs</title>
+	<atom:link href="https://libyanjobs.ly/jobs/feed/" rel="self" type="application/rss+xml" />
+	<link>https://libyanjobs.ly</link>
+	<description>Libyan Job Site</description>
+	<lastBuildDate>Sun, 23 Jan 2022 12:05:22 +0000</lastBuildDate>
+	<language>ar</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	
+
+<image>
+	<url>https://media.libyanjobs.ly/uploads/2021/02/cropped-Jobs_Fav-32x32.png</url>
+	<title>وظائف - Libyanjobs</title>
+	<link>https://libyanjobs.ly</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>مندوب\ة  دعاية طبية ((PHARMA PROMOTION)</title>
+		<link>https://libyanjobs.ly/jobs/pharma-promotion/</link>
+		
+		<dc:creator><![CDATA[نيروز القيروان]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 11:59:34 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246957</guid>
+
+					<description><![CDATA[<p>تعلن شركة نيروز القيروان للمستحضرات الطبية والعناية بالبشرة  طرابلس عن حاجتها لمندوب\ة  دعاية طبية (PHARMA PROMOTION) ويشترط أن يكون المتقدم للطلب: &#160; بكالوريس في التخصصات الطبية. يجيد القراءة باللغة الانجليزية. معرفة سابقة بالعمل في مجالات الدعاية الطبية. مهارات التفاوض والاقناع, التواصل الفعال مع الاخرين. فن الالقاء والاستماع الجيد. مهارات في زيادة تسويق المنتجات الطبي. &#160; على من يرى في نفسه</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/pharma-promotion/">مندوب\ة  دعاية طبية ((PHARMA PROMOTION)</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p>تعلن شركة نيروز القيروان للمستحضرات الطبية والعناية بالبشرة  طرابلس عن حاجتها لمندوب\ة  دعاية طبية (PHARMA PROMOTION)</p>
+<p>ويشترط أن يكون المتقدم للطلب:</p>
+<p>&nbsp;</p>
+<ul>
+<li>بكالوريس في التخصصات الطبية.</li>
+<li>يجيد القراءة باللغة الانجليزية.</li>
+<li>معرفة سابقة بالعمل في مجالات الدعاية الطبية.</li>
+<li>مهارات التفاوض والاقناع, التواصل الفعال مع الاخرين.</li>
+<li>فن الالقاء والاستماع الجيد.</li>
+<li>مهارات في زيادة تسويق المنتجات الطبي.</li>
+</ul>
+<p>&nbsp;</p>
+<p>على من يرى في نفسه الرغبة والكفاءة للعمل داخل الفريق ارسال السيرة الذاتية عبر البريد الالكتروني <a href="mailto:Nayrouzealkayrawen@yahoo.com">Nayrouzealkayrawen@yahoo.com</a> أو عبر تطبيق الوتساب 0928331452</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p><p>The post <a href="https://libyanjobs.ly/jobs/pharma-promotion/">مندوب\ة  دعاية طبية ((PHARMA PROMOTION)</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>نيروز القيروان</company>
+		<job_address>الفرناج,طرابلس</job_address>
+		<job_category>الادوية والمعدات الطبية,الدعاية و التسويق والعلاقات العامة</job_category>
+	</item>
+		<item>
+		<title>مندوب مبيعات طبية</title>
+		<link>https://libyanjobs.ly/jobs/medical-sales-rep-3/</link>
+		
+		<dc:creator><![CDATA[Aِutelia.ly Beauty, cosmetic &#038; personal care]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 11:51:13 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246989</guid>
+
+					<description><![CDATA[<p>الوصف الوظيفي: مندوب مبيعات &#160; التقرير إلى: مدير المبيعات &#160; المهام و المسؤوليات &#8211; خدمة العمالء الحاليين و تحصيل طلبات الشراء و تأسيس حسابات عملاء جدد و تنظيم جدول عمل يومي للتواصل مع العملاء. &#8211; تقديم و ترويج و بيع المنتجات و استخدام مهارات النقاش و التفاوض مع العملاء المحتملين و العملاء الحاليين. &#8211; استالم طلبات الشراء بالرجوع إلى مسودات</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/medical-sales-rep-3/">مندوب مبيعات طبية</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p><strong>الوصف الوظيفي: </strong>مندوب مبيعات</p>
+<p>&nbsp;</p>
+<p><strong>التقرير إلى:</strong> مدير المبيعات</p>
+<p>&nbsp;</p>
+<p><strong>المهام و المسؤوليات</strong></p>
+<p>&#8211; خدمة العمالء الحاليين و تحصيل طلبات الشراء و تأسيس حسابات عملاء جدد و تنظيم جدول عمل يومي<br />
+للتواصل مع العملاء.<br />
+&#8211; تقديم و ترويج و بيع المنتجات و استخدام مهارات النقاش و التفاوض مع العملاء المحتملين و العملاء الحاليين.<br />
+&#8211; استالم طلبات الشراء بالرجوع إلى مسودات المنتجات و بيناتها.<br />
+&#8211; جمع معلومات السوق الحالية من منتجات و أسعار البيع و مواعيد التسليم و تسويق للمنتجات.<br />
+&#8211; ايصال توصيات و آراء العملاء عن الخدمات و المنتجات و السياسات من خلال تقييم النتائج و الإنتباه<br />
+للمنافسة.<br />
+&#8211; حل شكاوى العملاء من خلال التحقق من المشاكل و لتطوير الحلول و إعداد تقارير التوصيات لإلدارة.<br />
+&#8211; بناء و الحفاظ على قنوات البيع و تحقيق األهداف المتفق عليها و النتائج في خلال الجدول الزمني.</p>
+<p>&nbsp;</p>
+<p><strong>الخبرات و المهارات المطلوبة</strong></p>
+<p>• مهارات تفاوض و أساليب تواصل متميزة.<br />
+• خبرة أقلها سنتين في تسويق المنتجات الطبية أو ما يشابه.<br />
+• القدرة على إدارة الوقت و تحديد الأولويات و مهارات التنظيم.<br />
+• القدرة على تصميم العروض و تخصيصها للعملاء المستهدفين و تقديمها بالشكل المناسب.<br />
+• إدارة العالقات العامة و الإستعداد لإستقبال الآراء المختلفة.<br />
+• امتالك وسيلة نقل خاصة.<br />
+• جدير بالثقة و قادر على المحافظة على خصوصيات العمل.</p>
+<p>&nbsp;</p>
+<p><b>يتحمل جميع الموظفين مسؤولية</b></p>
+<p><span style="font-weight: 400;">القائمة أعلاه ليست شاملة وقد يتم إرفاق واجبات أخرى بالمنشور من وقت لآخر. قد يحدث الاختلاف أيضًا في الواجبات والمسؤوليات دون تغيير الطابع العام للمنصب.</span><span style="font-weight: 400;"> </span></p>
+<p>&nbsp;</p>
+<p><strong>التقديم</strong></p>
+<p>عبر ارسال بريد الكتروني إلى<strong><a href="mailto:hr@aurelia.ly"> hr@aurelia.ly</a></strong> مرفقة برسالة التغطية (Cover Letter) قبل آخر موعد لإستلام طلبات التقديم المحدد يوم: 31 يناير 2022.</p><p>The post <a href="https://libyanjobs.ly/jobs/medical-sales-rep-3/">مندوب مبيعات طبية</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>Aِutelia.ly  Beauty, cosmetic & personal care</company>
+		<job_address>طرابلس</job_address>
+		<job_category>الادوية والمعدات الطبية,التسويق,المبيعات وخدمة العملاء</job_category>
+	</item>
+		<item>
+		<title>ممثل طبي</title>
+		<link>https://libyanjobs.ly/jobs/medical-rep-37/</link>
+		
+		<dc:creator><![CDATA[Aِutelia.ly Beauty, cosmetic &#038; personal care]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 11:38:10 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246981</guid>
+
+					<description><![CDATA[<p>التوصيف الوظيفي للمندوب الطبي &#160; تفرير إلى: مدير المبيعات &#160; الغرض من الوظيفة: هو ترويج وبيع / تسويق منتجات الشركة ، سواء كانت أدوية أو معدات طبية. يمكن أن يشمل العملاء الأطباء والممرضات والصيادلة. سيقوم الممثل الطبي بزيادة الوعي بالمنتج والإجابة على الاستفسارات وتقديم المشورة وتقديم منتجات جديدة. &#160; المهام الرئيسية: تنظيم المواعيد واللقاءات مع موظفي الرعاية الصحية في المجتمع</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/medical-rep-37/">ممثل طبي</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p><b>التوصيف الوظيفي للمندوب الطبي</b></p>
+<p>&nbsp;</p>
+<p><b>تفرير إلى: </b><span style="font-weight: 400;">مدير المبيعات</span></p>
+<p>&nbsp;</p>
+<p><b>الغرض من الوظيفة:</b><span style="font-weight: 400;"> هو ترويج وبيع / تسويق منتجات الشركة ، سواء كانت أدوية أو معدات طبية. يمكن أن يشمل العملاء الأطباء والممرضات والصيادلة. سيقوم الممثل الطبي بزيادة الوعي بالمنتج والإجابة على الاستفسارات وتقديم المشورة وتقديم منتجات جديدة.</span></p>
+<p>&nbsp;</p>
+<p><b>المهام الرئيسية:</b></p>
+<ul>
+<li style="list-style-type: none;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">تنظيم المواعيد واللقاءات مع موظفي الرعاية الصحية في المجتمع والمستشفى</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">تحديد وإنشاء أعمال جديدة</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">التفاوض على العقود</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">إظهار المنتجات أو تقديمها لموظفي الرعاية الصحية بما في ذلك الأطباء والممرضات والصيادلة</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">إجراء البحوث ذات الصلة</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">تلبية كل من الاحتياجات التجارية والعلمية لمتخصصي الرعاية الصحية</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مسك سجلات مفصلة</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">حضور وتنظيم المعارض التجارية والمؤتمرات والاجتماعات</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">كتابة التقارير والمستندات الأخرى</span></li>
+</ul>
+</li>
+</ul>
+<p>&nbsp;</p>
+<p><b>المؤهلات:</b></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">شهادة جامعية مع المؤهلات ذات الصلة في علوم الحياة أو الصيدلة أو الطب أو التمريض أو طب الأسنان.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">شهادة امتحانات جمعية الصناعة الصيدلانية البريطانية (ABPI).)إضافة)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">رخصة القيادة الكاملة هي أيضًا مطلب شائع.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">خبرة عمل لمدة عامين في بيئة مبيعات &#8211; أو أي دور يواجه العملاء.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">إجادة اللغة الإنجليزية.</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><b>المهارات:</b><b><br />
+</b></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">الوعي التجاري</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مهارات العرض</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">المهارات البحثية</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">القدرة على التفاوض والتعاون</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">الصبر</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مهارات تواصل وشخصية قوية</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">المهارات التنظيمية.</span></li>
+</ul>
+<p><b> </b></p>
+<p><b>يتحمل جميع الموظفين مسؤولية</b></p>
+<p><span style="font-weight: 400;">القائمة أعلاه ليست شاملة وقد يتم إرفاق واجبات أخرى بالمنشور من وقت لآخر. قد يحدث الاختلاف أيضًا في الواجبات والمسؤوليات دون تغيير الطابع العام للمنصب.</span><span style="font-weight: 400;"> </span></p>
+<p><b>التقديم</b></p>
+<p>عبر ارسال بريد الكتروني إلى <a href="mailto:hr@aurelia.ly"><strong>hr@aurelia.ly</strong></a> مرفقة برسالة التغطية (Cover Letter) قبل اخر موعد لإستلام طلبات التقديم المحدد يوم: 31 يناير 2022.</p>
+<p>&nbsp;</p><p>The post <a href="https://libyanjobs.ly/jobs/medical-rep-37/">ممثل طبي</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>Aِutelia.ly  Beauty, cosmetic & personal care</company>
+		<job_address>طرابلس</job_address>
+		<job_category>الادوية والمعدات الطبية</job_category>
+	</item>
+		<item>
+		<title>مساعد اداري</title>
+		<link>https://libyanjobs.ly/jobs/administration-assistance-4/</link>
+		
+		<dc:creator><![CDATA[Aِutelia.ly Beauty, cosmetic &#038; personal care]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 11:36:32 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246983</guid>
+
+					<description><![CDATA[<p>التوصيف الوظيفي للمساعد الإداري &#160; تفرير إلى: المدير &#160; الغرض من الوظيفة: للمساعدة في التشغيل السلس للعمليات والمشاريع القائمة إلى جانب الإداريين في المؤسسة. تختلف واجبات المساعد الإداري حسب احتياجات العمليات والمشاريع القائمة. &#160; المهام الرئيسية: أداء واجبات موظف الاستقبال: تحية للزوار، والإجابة على أسئلتهم وتوجيههم إلى المكاتب وغرف الاجتماعات المناسبة ؛ الرد على الهاتف والتأكد من طبيعة عمل المتصل</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/administration-assistance-4/">مساعد اداري</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p><b>التوصيف الوظيفي للمساعد الإداري</b></p>
+<p>&nbsp;</p>
+<p><b>تفرير إلى: </b><span style="font-weight: 400;">المدير</span></p>
+<p>&nbsp;</p>
+<p><b>الغرض من الوظيفة:</b><span style="font-weight: 400;"> للمساعدة في التشغيل السلس للعمليات والمشاريع القائمة إلى جانب الإداريين في المؤسسة.</span></p>
+<p><span style="font-weight: 400;">تختلف واجبات المساعد الإداري حسب احتياجات العمليات والمشاريع القائمة.</span></p>
+<p>&nbsp;</p>
+<p><b>المهام الرئيسية:</b></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">أداء واجبات موظف الاستقبال: تحية للزوار، والإجابة على أسئلتهم وتوجيههم إلى المكاتب وغرف الاجتماعات المناسبة ؛ الرد على الهاتف والتأكد من طبيعة عمل المتصل ؛ تقديم معلومات أو استفسارات مباشرة ، حسب الاقتضاء.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">أداء مختلف أعمال الكمبيوتر ومعالجة النصوص ومسؤوليات الكتابة ومهارات الاتصال الكتابي ، مثل: النماذج والبرامج والمراسلات والرسائل الإخبارية والجداول الزمنية ومجموعة متنوعة من التقارير.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">أداء واجبات كتابية مثل توزيع البريد ، وجمع الملفات ، والتسجيل ، والفرز ، والنسخ  وما يتصل بها من واجبات.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">إدخال / الحفاظ على البيانات وإنشاء التقارير في نظام المعلومات الإدارية والمحاسبة والنظام الإداري ، كما هو مطلوب من قبل المدير المباشر.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">تعبئة أوامر الشراء للوازم المكتبية كإجراء للحصول على إذن من المكتب المالي، والتحقق من الطلبات المستلمة وتوزيعها على الموظفين المناسبين ، والاحتفاظ بقائمة جرد من اللوازم المكتبية.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">أن يكون على دراية ودعم الإجراءات والتوجيهات الإدارية.</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><b>المؤهلات:</b></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">الشهادة الجامعية هي الحد الأدنى المطلوب.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">إجادة اللغة الإنجليزية.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">خبرة لا تقل عن سنة واحدة في المكتب أو خبرة مساعد إداري.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">معرفة الممارسات الإدارية الأساسية.</span></li>
+</ul>
+<p>&nbsp;</p>
+<p><b>المهارات:</b><b><br />
+</b></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مهارات فائقة في التعامل مع الآخرين والتواصل الشفهي والمكتوب.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مهارات استماع ممتازة وقدرة على تنفيذ التوجيهات في الوقت المناسب.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مهارات ممتازة لإدارة الوقت ، بما في ذلك الالتزام بالمواعيد.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">القدرة على العمل كفرد من فريق مع المدير والموظفين.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">القدرة على العمل بشكل مستقل مع الحد الأدنى من الإشراف.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">القدرة على تحديد أولويات الطلبات المتعددة.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">القدرة على الحفاظ على السرية الصارمة.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">القدرة على التعامل بفعالية مع مجموعة واسعة من أفراد.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">مهارات التدقيق اللغوي الدقيقة.</span></li>
+</ul>
+<p><b> </b></p>
+<p><b>يتحمل جميع الموظفين مسؤولية</b></p>
+<p><span style="font-weight: 400;">القائمة أعلاه ليست شاملة وقد يتم إرفاق واجبات أخرى بالمنشور من وقت لآخر. قد يحدث الاختلاف أيضًا في الواجبات والمسؤوليات دون تغيير الطابع العام للمنصب.</span><span style="font-weight: 400;"> </span></p>
+<p><strong>التقديم</strong></p>
+<p>عبر ارسال بريد الكتروني إلى<a href="mailto:hr@aurelia.ly"><strong> hr@aurelia.ly</strong></a> بعنوان الوظيفة مرفقة برسالة التغطية (Cover Letter) قبل اخر موعد لإستلام طلبات التقديم المحدد يوم 31 يناير 2022.</p><p>The post <a href="https://libyanjobs.ly/jobs/administration-assistance-4/">مساعد اداري</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>Aِutelia.ly  Beauty, cosmetic & personal care</company>
+		<job_address>طرابلس</job_address>
+		<job_category>الإدارة,الادارة التنفيذية</job_category>
+	</item>
+		<item>
+		<title>موظفة مبيعات</title>
+		<link>https://libyanjobs.ly/jobs/sales-female-2/</link>
+		
+		<dc:creator><![CDATA[mohamed]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 09:11:55 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246926</guid>
+
+					<description><![CDATA[<p>لمسمى الوظيفي : موظفة مبيعات &#8211; محل ملابس النسائية الوصف الوظيفي : موظفة مبيعات تتعامل مباشرة مع الزبون ، ترتيب وتنسيق الملابس الشروط : يشترط الخبرة في المجال والتفرغ للعمل ، وتوفر وسيلة مواصلات عنوان العمل : فرع السياحيه وفرع حي الاندلس ساعات العمل : فترة صباحية و فترة مسائية المرتب : (600 دينار للفترة الواحدة) قابل للزيادة بعد اجتياز</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/sales-female-2/">موظفة مبيعات</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<div dir="auto">لمسمى الوظيفي : موظفة مبيعات &#8211; محل ملابس النسائية</div>
+<div dir="auto"></div>
+<div dir="auto">الوصف الوظيفي : موظفة مبيعات تتعامل مباشرة مع الزبون ، ترتيب وتنسيق الملابس</div>
+<div dir="auto"></div>
+<div dir="auto">الشروط : يشترط الخبرة في المجال والتفرغ للعمل ، وتوفر وسيلة مواصلات</div>
+<div dir="auto"></div>
+<div dir="auto">عنوان العمل : فرع السياحيه وفرع حي الاندلس</div>
+<div dir="auto">ساعات العمل : فترة صباحية و فترة مسائية</div>
+<div dir="auto">المرتب : (600 دينار للفترة الواحدة) قابل للزيادة بعد اجتياز فترة التجربة</div>
+<div dir="auto"></div>
+<div dir="auto">مدة العقد : سنة قابل للتجديد ، بعد اجتياز فترة التجربة</div>
+<div dir="auto"></div>
+<div dir="auto">المؤهل : معهد او اكثر</div>
+<div dir="auto"></div>
+<div dir="auto">مستوى اللغة والكمبيوتر : غير ملزم</div>
+<div dir="auto"></div>
+<div dir="auto">عدد سنوات الخبرة : سنة او اكثر</div>
+<div dir="auto"></div>
+<div dir="auto">المقابلات بفرع السياحية بالتنسيق عن طريق الهاتف</div>
+<div dir="auto">ايميل : <a href="mailto:almasar.aljaded.co@gmail.com" target="_blank" rel="noopener">almasar.aljaded.co@gmail.com</a></div>
+<div dir="auto">هاتف : 0923796861</div><p>The post <a href="https://libyanjobs.ly/jobs/sales-female-2/">موظفة مبيعات</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>شركة المسار الجديد لاستيراد الملابس والاحذية</company>
+		<job_address>طرابلس</job_address>
+		<job_category>المبيعات وخدمة العملاء</job_category>
+	</item>
+		<item>
+		<title>(17) وظيفة شاغرة</title>
+		<link>https://libyanjobs.ly/jobs/17-job-vacancies/</link>
+		
+		<dc:creator><![CDATA[طباق]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 08:56:51 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246747</guid>
+
+					<description><![CDATA[<p>تعلن شركة طباق للمقاولات العامة عن حاجتها إلى الوظائف التالية: 1- عدد 4 مهندس بنية تحتية وشبكات مياه 2- عدد 2 محاسب 3- عدد 2 علاقات عامة 4- عدد 4 مشغل حفار 5- عدد 2 سائق شاحنة 6- عدد 1 مشغل ألة طرح أسفلت 7- عدد مشغل خلاطة أسفلت 8- عدد 1 سكرتيرة يشترط من المتقدم الحصول على مؤهل جامعي،</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/17-job-vacancies/">(17) وظيفة شاغرة</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p>تعلن شركة طباق للمقاولات العامة عن حاجتها إلى الوظائف التالية:</p>
+<p>1- عدد 4 مهندس بنية تحتية وشبكات مياه</p>
+<p>2- عدد 2 محاسب</p>
+<p>3- عدد 2 علاقات عامة</p>
+<p>4- عدد 4 مشغل حفار</p>
+<p>5- عدد 2 سائق شاحنة</p>
+<p>6- عدد 1 مشغل ألة طرح أسفلت</p>
+<p>7- عدد مشغل خلاطة أسفلت</p>
+<p>8- عدد 1 سكرتيرة</p>
+<ul>
+<li>يشترط من المتقدم الحصول على مؤهل جامعي، ولايقل عن 4 سنوات خبرة بالنسبة للمهندسين والمحاسبين، وبقية الوظائف يشترط وجود خبرة سابقة لاتقل عن 5 سنوات</li>
+<li>على المتقدمين الاتصال عبر الرقم 0915255554 وأرسال cv على الأيميل <a href="mailto:tebak.libya.co@gmail.com"><strong>tebak.libya.co@gmail.com</strong></a></li>
+</ul>
+<p>&nbsp;</p><p>The post <a href="https://libyanjobs.ly/jobs/17-job-vacancies/">(17) وظيفة شاغرة</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>شركةطباق للمقاولات العامة</company>
+		<job_address>طرابلس</job_address>
+		<job_category>البناء والمقاولات</job_category>
+	</item>
+		<item>
+		<title>مساعدة ادارية</title>
+		<link>https://libyanjobs.ly/jobs/administration-assitance/</link>
+		
+		<dc:creator><![CDATA[شركة الحرية للخدمات الاعلامية]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 08:54:27 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246755</guid>
+
+					<description><![CDATA[<p>مساعد/ة ادارية مطلوب مساعد/ة إدارية للعمل بشركة الحرية للخدمات الاعلامية على ان يتوفر في المتقدم/ة التالي : مؤهل علمي دبلوم عالي ادارة اعمال او مايعادلها يفضل الخبرة السابقة في مجال الاداري الجدية والانضباط في العمل &#160; مواعيد العمل من السبت الى الخميس من السساعة 10:00ص حتى الساعة 5:00م مكان العمل : طرابلس المركز -بالقرب من جامع القدس للتقديم يرجى ارسال</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/administration-assitance/">مساعدة ادارية</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<h3>مساعد/ة ادارية</h3>
+<p>مطلوب مساعد/ة إدارية للعمل بشركة الحرية للخدمات الاعلامية على ان يتوفر في المتقدم/ة التالي :</p>
+<p>مؤهل علمي دبلوم عالي ادارة اعمال او مايعادلها</p>
+<p>يفضل الخبرة السابقة في مجال الاداري</p>
+<p>الجدية والانضباط في العمل</p>
+<p>&nbsp;</p>
+<p>مواعيد العمل</p>
+<p>من السبت الى الخميس</p>
+<p>من السساعة 10:00ص حتى الساعة 5:00م</p>
+<p>مكان العمل :</p>
+<p>طرابلس المركز -بالقرب من جامع القدس</p>
+<p>للتقديم يرجى ارسال السيرة الذاتية عبر الايميل مع ذكر اسم الوظيفة المتقدم عليها</p>
+<p><a href="mailto:jobs@lpc.ly"><strong>jobs@lpc.ly</strong></a></p>
+<p>&nbsp;</p><p>The post <a href="https://libyanjobs.ly/jobs/administration-assitance/">مساعدة ادارية</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>شركة الحرية للخدمات الاعلامية</company>
+		<job_address>طرابلس</job_address>
+		<job_category>الإدارة</job_category>
+	</item>
+		<item>
+		<title>موظفة تسويق الكتروني</title>
+		<link>https://libyanjobs.ly/jobs/digital-marketing-female-employee/</link>
+		
+		<dc:creator><![CDATA[نيروز القيروان]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 08:53:23 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246767</guid>
+
+					<description><![CDATA[<p>&#160; تعلن شركة نيروز القيروان للمستحضرات الطبية والعناية بالبشرة طرابلس عن حاجتها لموظفة تسويق الكتروني ويشترط أن يكون المتقدم للطلب: شهادة معهد عالي أو شهادة جامعية في نفس المجال اجادة اللغة الانجليزية اجادة العمل على برامج التصميم وتعديل الصور اجادة العمل على مواقع التواصل الاجتماعي (..facebook,instagram) خبرة عمل لاتقل عن سنة في مجال التسويق الالكتروني &#160; على من يرى في</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/digital-marketing-female-employee/">موظفة تسويق الكتروني</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p>&nbsp;</p>
+<p>تعلن شركة نيروز القيروان للمستحضرات الطبية والعناية بالبشرة طرابلس عن حاجتها لموظفة تسويق الكتروني ويشترط أن يكون المتقدم للطلب:</p>
+<ul>
+<li>شهادة معهد عالي أو شهادة جامعية في نفس المجال</li>
+<li>اجادة اللغة الانجليزية</li>
+<li>اجادة العمل على برامج التصميم وتعديل الصور</li>
+<li>اجادة العمل على مواقع التواصل الاجتماعي (..facebook,instagram)</li>
+<li>خبرة عمل لاتقل عن سنة في مجال التسويق الالكتروني</li>
+</ul>
+<p>&nbsp;</p>
+<p>على من يرى في نفسه الرغبة والكفاءة للعمل داخل الفريق ارسال السيرة الذاتية عبر البريد الالكتروني<strong> <a href="mailto:Nayrouzealkayrawen@yahoo.com">Nayrouzealkayrawen@yahoo.com</a></strong> أو عبر تطبيق الوتساب 0928331452</p>
+<p>&nbsp;</p><p>The post <a href="https://libyanjobs.ly/jobs/digital-marketing-female-employee/">موظفة تسويق الكتروني</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>نيروز القيروان</company>
+		<job_address>الفرناج</job_address>
+		<job_category>التسويق الالكتروني</job_category>
+	</item>
+		<item>
+		<title>مشرف مبيعات</title>
+		<link>https://libyanjobs.ly/jobs/sales-supervisor-6/</link>
+		
+		<dc:creator><![CDATA[AMG Group]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 08:52:31 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246784</guid>
+
+					<description><![CDATA[<p>تعلن شــركـة مـجموعة الأمـل عن رغبتها في توظيف مشرف مبيعات بـمدينة بنغازى، ويشترط ان يكون المتقدم حسن السيرة والسلوك، للتقديم يرجى ارسال السيرة الذاتية على البريد الالكتروني الأتي: hr@amalgrp.com العنوان: طرابلس، أبونواس السياحية &#160;</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/sales-supervisor-6/">مشرف مبيعات</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p><strong>تعلن شــركـة مـجموعة الأمـل عن رغبتها في توظيف مشرف مبيعات بـمدينة بنغازى، ويشترط ان يكون المتقدم حسن السيرة والسلوك</strong><strong>، </strong><strong>للتقديم يرجى ارسال السيرة الذاتية على البريد الالكتروني الأتي: </strong></p>
+<p><strong><a href="mailto:hr@amalgrp.com"><em>hr@amalgrp.com</em></a></strong></p>
+<p>العنوان: طرابلس، أبونواس السياحية</p>
+<p>&nbsp;</p><p>The post <a href="https://libyanjobs.ly/jobs/sales-supervisor-6/">مشرف مبيعات</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>AMG Group</company>
+		<job_address>طرابلس</job_address>
+		<job_category>التسويق</job_category>
+	</item>
+		<item>
+		<title>مدير مبيعات طبى</title>
+		<link>https://libyanjobs.ly/jobs/medical-sales-manager/</link>
+		
+		<dc:creator><![CDATA[AMG Group]]></dc:creator>
+		<pubDate>Sun, 23 Jan 2022 08:51:41 +0000</pubDate>
+				<guid isPermaLink="false">https://libyanjobs.ly/?post_type=noo_job&#038;p=246789</guid>
+
+					<description><![CDATA[<p>ترغب شركة مـجموعة الأمل الطبية عن حاجتها إلى توظيف مدير مبيعات طبى Medical sales manager بـمدينة # بنغازى وعلى أن يتم إرسال السيرة الذاتية عن طريق إيميل الشركة hr@amalgrp.com العنوان: طرابلس، أبونواس السياحية</p>
+<p>The post <a href="https://libyanjobs.ly/jobs/medical-sales-manager/">مدير مبيعات طبى</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></description>
+										<content:encoded><![CDATA[<p><strong>ترغب</strong> شركة مـجموعة الأمل الطبية عن حاجتها إلى توظيف <strong>مدير مبيعات طبى</strong> <strong><span class="VIiyi" lang="en"><span class="JLqJ4b ChMk0b" data-language-for-alternatives="en" data-language-to-translate-into="ar" data-phrase-index="0" data-number-of-phrases="1">Medical sales manager</span></span> </strong><strong>بـمدينة # بنغازى</strong></p>
+<p>وعلى أن يتم إرسال السيرة الذاتية عن طريق إيميل الشركة <strong><a href="mailto:hr@amalgrp.com"><em>hr@amalgrp.com</em></a></strong></p>
+<p>العنوان: طرابلس، أبونواس السياحية</p><p>The post <a href="https://libyanjobs.ly/jobs/medical-sales-manager/">مدير مبيعات طبى</a> first appeared on <a href="https://libyanjobs.ly">Libyanjobs</a>.</p>]]></content:encoded>
+					
+		
+		
+				<company>AMG Group</company>
+		<job_address>طرابلس</job_address>
+		<job_category>المبيعات</job_category>
+	</item>
+	</channel>
+</rss>
