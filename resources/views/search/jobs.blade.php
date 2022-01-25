@@ -181,7 +181,7 @@ function is_english($str)
                                  foreach($urls as $key => $value){
                                     if((empty($value) && $key !='city') ||  $key== 'page')
                                         continue;
-
+ 
 
                                     if($key == 'city'){
                                         if($cityHref == ''){
