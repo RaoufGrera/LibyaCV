@@ -81,7 +81,7 @@ Route::post('/apr/cert', 'SeekersController@cert');
 
 
 
-Route::get('/', 'viewController@index');
+//Route::get('/', 'viewController@index');
 Route::get('/__createWelcome', 'viewController@createTestR');
 Route::get('/__createfire', 'viewController@sendFireBase');
 Route::get('/__createfire1', 'viewController@sendSpecFireBase');
@@ -418,8 +418,11 @@ Route::get('/services/saerch', 'Search\ServicesController@showServicesAjax');
 Route::get('/services/{company_name}', 'Show\ServicesController@index');
 
 
-Route::get('/job/search', 'Search\JobController@showJob');
+Route::get('/job/search', 'Search\JobController@redirect');
+Route::get('/', 'Search\JobController@showJob');
+
 Route::get('/job/saerch', 'Search\JobController@showJobAjax');
+
 Route::get('/job/{user}/{name}', 'Show\JobController@index');
 Route::get('/job/{user}/{name?}', 'Show\JobController@index');
 

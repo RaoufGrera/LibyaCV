@@ -17,7 +17,10 @@ class JobController extends Controller
 {
     //
 
-
+  public function redirect()
+{
+    return redirect("/");
+}
     //Show Companyis
     public function showJob()
     {
