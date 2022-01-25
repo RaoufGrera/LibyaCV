@@ -121,7 +121,7 @@ function is_english($str)
                                 ?>
                                 <span>البحث</span><br>
                                 <span class="find-value"> {{ $urls['string'] }}</span>  <a
-                                        href="/{{ $stringClearHref }}">إزالة</a><br>
+                                        href="/job/search{{ $stringClearHref }}">إزالة</a><br>
                             @endif
 
                             @if(!empty($urls['city']))
@@ -141,7 +141,7 @@ function is_english($str)
                                 ?>
                                 <span>المدينة</span><br>
                                 <span class="find-value"> {{ $urls['city'] }}</span>  <a
-                                        href="/{{ $cityClearHref }}">إزالة</a><br>
+                                        href="/job/search{{ $cityClearHref }}">إزالة</a><br>
                             @endif
 
                             @if(!empty($urls['domain']))
@@ -161,7 +161,7 @@ function is_english($str)
                                 ?>
                                 <span>المجال</span><br>
                                 <span class="find-value"> {{ $urls['domain'] }}</span>  <a
-                                        href="/{{ $domainClearHref  }}">إزالة</a><br>
+                                        href="/job/search{{ $domainClearHref  }}">إزالة</a><br>
                             @endif
 
 
@@ -204,7 +204,7 @@ function is_english($str)
 
                                 ?>
                                 <a class="searcha"
-                                   href="{{  $cityHref }}">{{ $item->city_name }} <span style="float: left">[ {{ $item->city_count }} ]</span>
+                                   href="search{{  $cityHref }}">{{ $item->city_name }} <span style="float: left">[ {{ $item->city_count }} ]</span>
                                    </a>
                             @endforeach
 
@@ -225,7 +225,7 @@ function is_english($str)
                             }
                             ?>
                             {{ $_GET['city'] }}   ( <a
-                                    href="/{{ $cityClearHref }}">إزالة</a>
+                                    href="/job/search{{ $cityClearHref }}">إزالة</a>
                             )
                         @endif
                     </div>
@@ -268,14 +268,14 @@ function is_english($str)
 
                                 ?>
 
-                                <a itemscope itemtype="{{ $domainHref }}" itemprop="url"  class="searcha"
-                                   href="{{ $domainHref }}">{{ $item->domain_name }} <span style="float: left">[ {{ $item->domain_count }} ]</span>
+                                <a itemscope itemtype="search{{ $domainHref }}" itemprop="url"  class="searcha"
+                                   href="search{{ $domainHref }}">{{ $item->domain_name }} <span style="float: left">[ {{ $item->domain_count }} ]</span>
                                     </a>
 
                             @endforeach
                         @else
                             {{ $urls['domain'] }}   ( <a
-                                    href="{{ $domainClearHref }}">إزالة</a>
+                                    href="search{{ $domainClearHref }}">إزالة</a>
                             )
                         @endif
                     </div>
@@ -434,7 +434,7 @@ function is_english($str)
                                         if(this.isstar ==1)
                                             sss="<span class='icon-star star'>مميز</span>";
                                         var s ='<div class="job-div"><div class="cv-body">'+
-                                            '<div class="devimgseeker"><a title="'+this.job_name+'" href="/job/'+ this.desc_id +'/'+this.job_url+'"><img class="imgjob-view" src="'+ this.image+'" /></a></div> <div class="line"><h2 class="display '+this.dir+'"><a title="'+this.job_name+'" id="cvname" href="/job/'+this.desc_id+'/'+this.job_url+'">'+this.job_name+'</a>'+sss+'</h2><span class="r"><span class="texts  "><a style="color: #FFFFFF;" class="icon-location '+this.city_color +'" href="/?city='+this.city_name+'">'+this.city_name+'</a></span></span>'+
+                                            '<div class="devimgseeker"><a title="'+this.job_name+'" href="/job/'+ this.desc_id +'/'+this.job_url+'"><img class="imgjob-view" src="'+ this.image+'" /></a></div> <div class="line"><h2 class="display '+this.dir+'"><a title="'+this.job_name+'" id="cvname" href="/job/'+this.desc_id+'/'+this.job_url+'">'+this.job_name+'</a>'+sss+'</h2><span class="r"><span class="texts  "><a style="color: #FFFFFF;" class="icon-location '+this.city_color +'" href="/job/search?city='+this.city_name+'">'+this.city_name+'</a></span></span>'+
                                             '<span class="icon-heart ">'+this.see_it+'</span>&nbsp;&nbsp;<span>'+this.job_start+'</span></div>';
 
                                         ss = s ;
