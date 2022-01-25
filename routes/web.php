@@ -138,7 +138,7 @@ Route::post('/register/main', 'SeekersAuth\AuthController@registerEasy');
 //Route::group(['middleware' => ['users']], function () {
 
 
-//Route::get('/exam', 'Exam\ExamController@index');
+//Route::get('/exam', 'Exam\ExamController@index'); 
 Route::post('/search', 'SeekersController@searchAll');
 
 Route::get('/block/cv/{user_name}', 'Block\BlockController@showBlockCv');
