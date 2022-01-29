@@ -121,7 +121,7 @@ function is_english($str)
                                 ?>
                                 <span>البحث</span><br>
                                 <span class="find-value"> <?php echo e($urls['string']); ?></span>  <a
-                                        href="/job/search<?php echo e($stringClearHref); ?>">إزالة</a><br>
+                                        href="/<?php echo e($stringClearHref); ?>">إزالة</a><br>
                             <?php endif; ?>
 
                             <?php if(!empty($urls['city'])): ?>
@@ -141,7 +141,7 @@ function is_english($str)
                                 ?>
                                 <span>المدينة</span><br>
                                 <span class="find-value"> <?php echo e($urls['city']); ?></span>  <a
-                                        href="/job/search<?php echo e($cityClearHref); ?>">إزالة</a><br>
+                                        href="/<?php echo e($cityClearHref); ?>">إزالة</a><br>
                             <?php endif; ?>
 
                             <?php if(!empty($urls['domain'])): ?>
@@ -161,7 +161,7 @@ function is_english($str)
                                 ?>
                                 <span>المجال</span><br>
                                 <span class="find-value"> <?php echo e($urls['domain']); ?></span>  <a
-                                        href="/job/search<?php echo e($domainClearHref); ?>">إزالة</a><br>
+                                        href="/<?php echo e($domainClearHref); ?>">إزالة</a><br>
                             <?php endif; ?>
 
 
@@ -181,7 +181,7 @@ function is_english($str)
                                  foreach($urls as $key => $value){
                                     if((empty($value) && $key !='city') ||  $key== 'page')
                                         continue;
-
+ 
 
                                     if($key == 'city'){
                                         if($cityHref == ''){
@@ -204,7 +204,7 @@ function is_english($str)
 
                                 ?>
                                 <a class="searcha"
-                                   href="search<?php echo e($cityHref); ?>"><?php echo e($item->city_name); ?> <span style="float: left">[ <?php echo e($item->city_count); ?> ]</span>
+                                   href="<?php echo e($cityHref); ?>"><?php echo e($item->city_name); ?> <span style="float: left">[ <?php echo e($item->city_count); ?> ]</span>
                                    </a>
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
 
@@ -225,7 +225,7 @@ function is_english($str)
                             }
                             ?>
                             <?php echo e($_GET['city']); ?>   ( <a
-                                    href="/job/search<?php echo e($cityClearHref); ?>">إزالة</a>
+                                    href="/<?php echo e($cityClearHref); ?>">إزالة</a>
                             )
                         <?php endif; ?>
                     </div>
@@ -268,14 +268,14 @@ function is_english($str)
 
                                 ?>
 
-                                <a itemscope itemtype="search<?php echo e($domainHref); ?>" itemprop="url"  class="searcha"
-                                   href="search<?php echo e($domainHref); ?>"><?php echo e($item->domain_name); ?> <span style="float: left">[ <?php echo e($item->domain_count); ?> ]</span>
+                                <a itemscope itemtype="<?php echo e($domainHref); ?>" itemprop="url"  class="searcha"
+                                   href="<?php echo e($domainHref); ?>"><?php echo e($item->domain_name); ?> <span style="float: left">[ <?php echo e($item->domain_count); ?> ]</span>
                                     </a>
 
                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
                         <?php else: ?>
                             <?php echo e($urls['domain']); ?>   ( <a
-                                    href="search<?php echo e($domainClearHref); ?>">إزالة</a>
+                                    href="<?php echo e($domainClearHref); ?>">إزالة</a>
                             )
                         <?php endif; ?>
                     </div>
@@ -357,7 +357,7 @@ function is_english($str)
                           <a itemprop='name' title="<?php echo e($jobArray['job_name']); ?>" href="/job/<?php echo e($jobArray['desc_id']); ?>/<?php echo e(make_slug($jobArray['job_name'])); ?>"><img alt="<?php echo e($jobArray['comp_name']); ?>" class="imgjob-view"
                                      src= <?php if($jobArray['image'] != ''): ?><?php echo e(asset('images/company/140px_'.$jobArray['image_code'].'_'.$jobArray['image'])); ?> <?php else: ?> <?php echo e(asset('images/simple/140px_company.png')); ?> <?php endif; ?> /></a></div><div class="line">
 
-                                            <h2  class="display"  <?php if(is_english($jobArray['job_name'])): ?> style="direction: ltr" <?php endif; ?>><a title="<?php echo e($jobArray['job_name']); ?>" id="cvname" href="<?php echo e($jobArray['desc_id']); ?>/<?php echo e(make_slug($jobArray['job_name'])); ?>"><?php echo e($jobArray['job_name']); ?></a></h2>
+                                            <h2  class="display"  <?php if(is_english($jobArray['job_name'])): ?> style="direction: ltr" <?php endif; ?>><a title="<?php echo e($jobArray['job_name']); ?>" id="cvname" href="/job/<?php echo e($jobArray['desc_id']); ?>/<?php echo e(make_slug($jobArray['job_name'])); ?>"><?php echo e($jobArray['job_name']); ?></a></h2>
                                            <span class="r"><span class="texts "><a class="icon-location <?php echo e($jobArray['city_color']); ?> " style="color: #FFFFFF;" href="?city=<?php echo e($jobArray['city_name']); ?>"><?php echo e($jobArray['city_name']); ?></a></span>
                                           <span class="texts"> <i class="icon-heart" ></i><?php echo e($jobArray['see_it']); ?></span> &nbsp;<span> <?php echo e($jobArray['job_start']); ?></span></span>
                                 </div>
@@ -434,7 +434,7 @@ function is_english($str)
                                         if(this.isstar ==1)
                                             sss="<span class='icon-star star'>مميز</span>";
                                         var s ='<div class="job-div"><div class="cv-body">'+
-                                            '<div class="devimgseeker"><a title="'+this.job_name+'" href="/job/'+ this.desc_id +'/'+this.job_url+'"><img class="imgjob-view" src="'+ this.image+'" /></a></div> <div class="line"><h2 class="display '+this.dir+'"><a title="'+this.job_name+'" id="cvname" href="/job/'+this.desc_id+'/'+this.job_url+'">'+this.job_name+'</a>'+sss+'</h2><span class="r"><span class="texts  "><a style="color: #FFFFFF;" class="icon-location '+this.city_color +'" href="/job/search?city='+this.city_name+'">'+this.city_name+'</a></span></span>'+
+                                            '<div class="devimgseeker"><a title="'+this.job_name+'" href="/job/'+ this.desc_id +'/'+this.job_url+'"><img class="imgjob-view" src="'+ this.image+'" /></a></div> <div class="line"><h2 class="display '+this.dir+'"><a title="'+this.job_name+'" id="cvname" href="/job/'+this.desc_id+'/'+this.job_url+'">'+this.job_name+'</a>'+sss+'</h2><span class="r"><span class="texts  "><a style="color: #FFFFFF;" class="icon-location '+this.city_color +'" href="/?city='+this.city_name+'">'+this.city_name+'</a></span></span>'+
                                             '<span class="icon-heart ">'+this.see_it+'</span>&nbsp;&nbsp;<span>'+this.job_start+'</span></div>';
 
                                         ss = s ;

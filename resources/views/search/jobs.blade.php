@@ -331,7 +331,7 @@ function is_english($str)
     }
 </Style>
 <br>
-                <h1  style="display:inline-block" class="title-page">{{$titleCity}} {{$titleDomain}}</h1><span  class="ccount">{{$jobCount}} وظيفة </span>
+                <h1  style="display:inline-block" class="title-page">{{$titleCity}} {{$titleDomain}}</h1>
 
  
                 <div>
@@ -357,7 +357,7 @@ function is_english($str)
                           <a itemprop='name' title="{{$jobArray['job_name']}}" href="/job/{{$jobArray['desc_id']}}/{{make_slug($jobArray['job_name'])}}"><img alt="{{ $jobArray['comp_name'] }}" class="imgjob-view"
                                      src= @if($jobArray['image'] != ''){{asset('images/company/140px_'.$jobArray['image_code'].'_'.$jobArray['image'])}} @else {{asset('images/simple/140px_company.png')}} @endif /></a></div><div class="line">
 
-                                            <h2  class="display"  @if(is_english($jobArray['job_name'])) style="direction: ltr" @endif><a title="{{$jobArray['job_name']}}" id="cvname" href="{{ $jobArray['desc_id'] }}/{{make_slug($jobArray['job_name'])}}">{{$jobArray['job_name']}}</a></h2>
+                                            <h2  class="display"  @if(is_english($jobArray['job_name'])) style="direction: ltr" @endif><a title="{{$jobArray['job_name']}}" id="cvname" href="/job/{{ $jobArray['desc_id'] }}/{{make_slug($jobArray['job_name'])}}">{{$jobArray['job_name']}}</a></h2>
                                            <span class="r"><span class="texts "><a class="icon-location {{ $jobArray['city_color'] }} " style="color: #FFFFFF;" href="?city={{ $jobArray['city_name'] }}">{{$jobArray['city_name']}}</a></span>
                                           <span class="texts"> <i class="icon-heart" ></i>{{ $jobArray['see_it'] }}</span> &nbsp;<span> {{$jobArray['job_start']}}</span></span>
                                 </div>

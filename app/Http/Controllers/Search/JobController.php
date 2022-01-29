@@ -86,7 +86,7 @@ class JobController extends Controller
         $data['select'] = "all";
 
         $records_at_page = 20;
-        $jobCount = count($s->searchJob($data));
+        $jobCount = 0;//count($s->searchJob($data));
 
         $data['start'] = 0;
         $data['end'] = 20;
