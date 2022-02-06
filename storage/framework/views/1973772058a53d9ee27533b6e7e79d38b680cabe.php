@@ -331,7 +331,7 @@ function is_english($str)
     }
 </Style>
 <br>
-                <h1  style="display:inline-block" class="title-page"><?php echo e($titleCity); ?> <?php echo e($titleDomain); ?></h1><span  class="ccount"><?php echo e($jobCount); ?> وظيفة </span>
+                <h1  style="display:inline-block" class="title-page"><?php echo e($titleCity); ?> <?php echo e($titleDomain); ?></h1>
 
  
                 <div>
