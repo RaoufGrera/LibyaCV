@@ -2,7 +2,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 if (workbox) {
 
     // top-level routes we want to precache
-    workbox.precaching.precacheAndRoute(['/policy','/terms']);
+   // workbox.precaching.precacheAndRoute(['/policy','/terms']);
 
     // injected assets by Workbox CLI
     workbox.precaching.precacheAndRoute([
