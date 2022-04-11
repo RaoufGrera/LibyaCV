@@ -447,7 +447,7 @@ function is_english($str)
                                                  $("#IdResults").append(ads);
                                              }
                                     }));
-                                         if(a > 19){
+                                         if(a > 14){
                                          $("#more").prop("disabled", false);
                                          $('#more span').text('مشاهدة المزيد');
                                          }else{

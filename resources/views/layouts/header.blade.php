@@ -363,7 +363,7 @@
 
     <div class="col-md-12 f">
         <hr style="color:#ddd">
-        جميع الحقوق محفوظة Libyacv - 2021
+        جميع الحقوق محفوظة Libyacv - 2022
     </div>
 </footer>
 
