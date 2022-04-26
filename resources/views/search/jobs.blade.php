@@ -33,8 +33,8 @@ function is_english($str)
 @section('curl',Request::url())
 
 @section('content')
-    <script data-ad-client="ca-pub-9929016091047307" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
+   <!-- <script data-ad-client="ca-pub-9929016091047307" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+-->
     <script type="application/javascript">
         function Toggle(item) {
             objReq = document.getElementById(item);
@@ -443,8 +443,8 @@ function is_english($str)
                                              a++;
                                              if(a === 4 || a === 8){
                                                  console.log(a);
-                                                 var ads ='<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-9929016091047307" data-ad-slot="9694737710"></ins>';
-                                                 $("#IdResults").append(ads);
+                                            /*     var ads ='<ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-9929016091047307" data-ad-slot="9694737710"></ins>';
+                                                 $("#IdResults").append(ads); */
                                              }
                                     }));
                                          if(a > 9){
