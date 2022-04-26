@@ -373,7 +373,7 @@ function is_english($str)
 
                     <hr>
                     <div class="center">
-                        @if(count($jobsArray) > 19 )
+                        @if(count($jobsArray) > 10 )
                             <button id="more" class="btn btn-lg  btn-default center"  onclick="showMore()"><span>مشاهدة المزيد  </span><img id="moreImg" style="display: none" src="{{asset('images/loading.gif')}}"/></button>
                         @else
                             <button id="more" class="btn btn-lg  btn-default center"  disabled ><span>إنتهت نتائج البحث  </span></button>
