@@ -373,7 +373,7 @@ function is_english($str)
 
                     <hr>
                     <div class="center">
-                        <?php if(count($jobsArray) > 19 ): ?>
+                        <?php if(count($jobsArray) > 10 ): ?>
                             <button id="more" class="btn btn-lg  btn-default center"  onclick="showMore()"><span>مشاهدة المزيد  </span><img id="moreImg" style="display: none" src="<?php echo e(asset('images/loading.gif')); ?>"/></button>
                         <?php else: ?>
                             <button id="more" class="btn btn-lg  btn-default center"  disabled ><span>إنتهت نتائج البحث  </span></button>
@@ -447,7 +447,7 @@ function is_english($str)
                                                  $("#IdResults").append(ads);
                                              }
                                     }));
-                                         if(a > 19){
+                                         if(a > 14){
                                          $("#more").prop("disabled", false);
                                          $('#more span').text('مشاهدة المزيد');
                                          }else{
