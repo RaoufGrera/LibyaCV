@@ -30,13 +30,13 @@ if (workbox) {
       cacheName: 'static-resources',
     })
   );
-  workbox.routing.registerRoute(
+  /*workbox.routing.registerRoute(
     'https://www.libyacv.com/job/search',
 
     new workbox.strategies.NetworkFirst({
       cacheName: 'static-resources',
     })
-  );
+  );*/
   workbox.routing.registerRoute(
     'https://www.libyacv.com/company/search',
 
