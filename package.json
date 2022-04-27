@@ -19,6 +19,8 @@
         "vue": "^2.1.10"
     },
     "dependencies": {
+        "save-dev": "^0.0.1-security",
+        "sw-precache-webpack-plugin": "^1.0.0",
         "workbox-cli": "^4.3.1"
     }
 }
