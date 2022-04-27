@@ -1,6 +1,7 @@
 function initSW() {
     if (!"serviceWorker" in navigator) {
         //service worker isn't supported
+        console.log("service worker isn't supported")
         return;
     }
 
@@ -8,11 +9,12 @@ function initSW() {
     //for other stuff.
     if (!"PushManager" in window) {
         //push isn't supported
+        console.log("is not supported pushManager")
         return;
     }
 
     //register the service worker
-    navigator.serviceWorker.register('../sw.js')
+    navigator.serviceWorker.register('/service-worker.js')
         .then(() => {
             console.log('serviceWorker installed!')
             initPush();
