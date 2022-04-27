@@ -1,3 +1,5 @@
+initSW();
+
 function initSW() {
     if (!"serviceWorker" in navigator) {
         //service worker isn't supported
@@ -13,15 +15,22 @@ function initSW() {
         return;
     }
 
-    //register the service worker
-    navigator.serviceWorker.register('/service-worker.js')
-        .then(() => {
-            console.log('serviceWorker installed!')
-            initPush();
-        })
-        .catch((err) => {
-            console.log(err)
+
+
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/service-worker.js').then(() => {
+                console.log('serviceWorker installed!')
+                initPush();
+            })
+                .catch((err) => {
+                    console.log(err)
+                });
         });
+    } else {
+        console.log('serviceWorker no!')
+
+    }
 }
 
 function initPush() {
