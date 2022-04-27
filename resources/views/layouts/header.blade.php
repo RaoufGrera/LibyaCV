@@ -56,29 +56,21 @@
      <meta property="fb:app_id" content="340370763039912" />
     <link rel="canonical" href="https://www.libyacv.com/">
     @yield('json')
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118379751-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-118379751-1');
-    </script>
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118379751-1"></script>
 <script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "ca-pub-9929016091047307",
-          enable_page_level_ads: true
-     });
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-118379751-1');
 </script>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9929016091047307"
+     crossorigin="anonymous"></script>
 
-     <script>
-         (adsbygoogle = window.adsbygoogle || []).push({
-             google_ad_client: "ca-pub-9929016091047307",
-             enable_page_level_ads: true
-         });
-     </script>
+
+    
 
 </head>
 <body>

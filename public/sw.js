@@ -6,7 +6,10 @@ if (workbox) {
 
   // injected assets by Workbox CLI
   workbox.precaching.precacheAndRoute([
-
+    {
+      "url": "73618c7f3786a6076584ffc98d92eaf8.html",
+      "revision": "837501974c28a8e3c8e15352acbcbd27"
+    },
     {
       "url": "app.js",
       "revision": "39d03e43ab84df3dbdfe3349102df07b"

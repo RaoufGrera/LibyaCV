@@ -1,10 +1,10 @@
 module.exports = {
 
-   globDirectory: "public/",
+    globDirectory: "public/",
 
 
-    swDest: "public\\service-worker.js",
-    swSrc: "public\\js\\service-worker.js"
+    swDest: "public\\sw.js",
+
 
 
 };
