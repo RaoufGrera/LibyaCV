@@ -44,17 +44,16 @@ class SendWeb extends Command
     public function handle()
     {
        
-            $user = \App\Guest::findOrFail(6832);
+            $user = \App\Guest::all();
 
             $jobs = DB::table('job_description')
             ->join('managers', 'managers.manager_id', '=', 'job_description.manager_id')
             ->join('companys', 'companys.comp_id', '=', 'managers.comp_id')            
             ->where('is_web', '=', 0)
-            ->where('managers.manager_id','!=',185)
-            ->where('job_description.desc_id','>',3981)
+           // ->where('managers.manager_id','!=',185)
+           // ->where('job_description.desc_id','>',3981)
             ->select( 'image',
             'code_image', 'comp_name', 'job_name', 'job_description.desc_id')->get();
-            DB::table('job_description')->update(['is_web' =>  1]);
 
             $i=0;
             foreach($jobs as $job){
@@ -81,7 +80,8 @@ class SendWeb extends Command
                 Notification::send($user,new SendWebNoti($title, $body,$icon, $action));
             }
             
-            
+            DB::table('job_description')->update(['is_web' =>  1]);
+
 
            // $user->notify(new \App\Notifications\PushDemo());
           
