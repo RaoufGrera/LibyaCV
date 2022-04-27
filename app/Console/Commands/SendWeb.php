@@ -44,7 +44,7 @@ class SendWeb extends Command
     public function handle()
     {
        
-            $user = \App\Guest::all();
+            $user = \App\Guest::findOrFail(6832);
 
             $jobs = DB::table('job_description')
             ->join('managers', 'managers.manager_id', '=', 'job_description.manager_id')

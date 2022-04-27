@@ -21,11 +21,11 @@ class PushController extends Controller
 
     
     public function push(){
-      /*  $user = \App\Guest::all();
+      $user = \App\Guest::findOrFail(6832);
 
-       // $user->notify(new \App\Notifications\PushDemo());
-        Notification::send($user,new PushDemo);*/
-        return redirect()->back();
+      //$user->notify(new \App\Notifications\PushDemo());
+        Notification::send($user,new PushDemo); 
+      //  return redirect()->back();
     }
     public function store(Request $request){
         $this->validate($request,[
