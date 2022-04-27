@@ -375,6 +375,7 @@
 
 
 </script>
+<script type="text/javascript" src="{{asset('enable-push.js')}}" async ></script>
 
 <a class="facebox" style="display: none"></a>
 
