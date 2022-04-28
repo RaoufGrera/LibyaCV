@@ -21,7 +21,7 @@ class PushController extends Controller
 
     
     public function push(){
-      $user = \App\Guest::findOrFail(6831);
+      $user = \App\Guest::all();
 
       //$user->notify(new \App\Notifications\PushDemo());
         Notification::send($user,new PushDemo); 
