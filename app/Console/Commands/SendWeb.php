@@ -44,13 +44,14 @@ class SendWeb extends Command
     public function handle()
     {
        
-            $user = \App\Guest::all();
+          //  $user = \App\Guest::all();
+            $user = \App\Guest::all()->random(2000);
 
             $jobs = DB::table('job_description')
             ->join('managers', 'managers.manager_id', '=', 'job_description.manager_id')
             ->join('companys', 'companys.comp_id', '=', 'managers.comp_id')            
             ->where('is_web', '=', 0)
-           // ->where('managers.manager_id','!=',185)
+            ->where('managers.manager_id','!=',185)
            // ->where('job_description.desc_id','>',3981)
             ->select( 'image',
             'code_image', 'comp_name', 'job_name', 'job_description.desc_id')->get();
