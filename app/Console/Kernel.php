@@ -44,15 +44,15 @@ class Kernel extends ConsoleKernel
       //   $schedule->command('note:send')->hourly();
        //  $schedule->command('send:web')->hourly();
 
-      /*  $schedule->call(function () {
+       $schedule->call(function () {
             DB::table('job_description')->whereRaw('job_stop >= see_it')->update(['see_it' => DB::raw('see_it+RAND()*(9-3)+7')]);
-        })->hourly();*/
-        // ->between('9:00', '23:00');
+        }) //->hourly();
+         ->between('9:00', '23:00');
 
-        /* $schedule->call(function () {
+         $schedule->call(function () {
             DB::table('seekers')->update(['see_it' => DB::raw('see_it+RAND()*(4-3)+3')]);
             DB::table('companys')->update(['see_it' => DB::raw('see_it+RAND()*(4-3)+3')]);
-        })->twiceDaily(1, 13);*/
+        })->twiceDaily(1, 13);
     }
 
     /**
