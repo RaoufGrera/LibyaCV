@@ -39,7 +39,7 @@ class Kernel extends ConsoleKernel
         //          ->hourly();
 
         // $schedule->command('note:send')->everyFiveMinutes();
-       //  $schedule->command('refresh:send')->everyFifteenMinutes();
+         $schedule->command('refresh:send')->everyFifteenMinutes();
        //  $schedule->command('add:jobs')->hourly(); //twiceDaily(1, 13);
       //   $schedule->command('note:send')->hourly();
        //  $schedule->command('send:web')->hourly();
