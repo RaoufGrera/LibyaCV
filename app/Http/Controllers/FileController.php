@@ -16,6 +16,7 @@ class FileController extends Controller
     public function index()
     {
         $xmlString = file_get_contents(public_path('sample.xml'));
+        
         $xmlObject = simplexml_load_string($xmlString);
         $content = simplexml_load_string(
             $xmlString

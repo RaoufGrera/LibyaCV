@@ -45,7 +45,7 @@ class SendWeb extends Command
     {
        
           //  $user = \App\Guest::all();
-            $user = \App\Guest::all()->random(2000);
+            $user = \App\Guest::all();
 
             $jobs = DB::table('job_description')
             ->join('managers', 'managers.manager_id', '=', 'job_description.manager_id')

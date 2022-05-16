@@ -50,7 +50,7 @@
      <meta property="fb:app_id" content="340370763039912" />
     <link rel="canonical" href="https://www.libyacv.com/">
     <?php echo $__env->yieldContent('json'); ?>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics    -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118379751-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -59,12 +59,12 @@
 
   gtag('config', 'UA-118379751-1');
 </script>
-
+<!-- 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9929016091047307"
      crossorigin="anonymous"></script>
 
 
-    
+     -->
 
 </head>
 <body>
