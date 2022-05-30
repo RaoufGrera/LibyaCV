@@ -23,7 +23,7 @@ class Kernel extends ConsoleKernel
         //  NoteDescAndroid::class,
         RefreshWebsite::class,
         AddJobs::class,
-      //  SendWeb::class
+        SendWeb::class
 
     ];
 
@@ -42,7 +42,7 @@ class Kernel extends ConsoleKernel
          $schedule->command('refresh:send')->everyFifteenMinutes();
        //  $schedule->command('add:jobs')->hourly(); //twiceDaily(1, 13);
       //   $schedule->command('note:send')->hourly();
-       //  $schedule->command('send:web')->hourly();
+         $schedule->command('send:web')->hourly();
 
        $schedule->call(function () {
             DB::table('job_description')->whereRaw('job_stop >= see_it')->update(['see_it' => DB::raw('see_it+RAND()*(9-3)+7')]);

@@ -47,7 +47,24 @@ class SendWeb extends Command
           //  $user = \App\Guest::all();
             $user = \App\Guest::all();
 
-            $jobs = DB::table('job_description')
+          
+            $companyImage ='https://www.libyacv.com/images/simple/libyacv_logo.png';
+           
+        
+             $action = "https://www.libyacv.com/job/search";
+               
+               
+                $title ="وظائف شاغرة في ليبيا";
+                $body ="أكثر من 20 وظيفة شاغرة تم نشرها في الموقع.. للمزيد من التفاصيل يرجي زيارة الموقع";
+                $icon = $companyImage;
+                Notification::send($user,new SendWebNoti($title, $body,$icon, $action));
+            
+            
+            DB::table('job_description')->update(['is_web' =>  1]);
+
+/*
+
+       //     $jobs = DB::table('job_description')
             ->join('managers', 'managers.manager_id', '=', 'job_description.manager_id')
             ->join('companys', 'companys.comp_id', '=', 'managers.comp_id')            
             ->where('is_web', '=', 0)
@@ -79,11 +96,8 @@ class SendWeb extends Command
                 $body =$job->job_name;
                 $icon = $companyImage;
                 Notification::send($user,new SendWebNoti($title, $body,$icon, $action));
-            }
-            
-            DB::table('job_description')->update(['is_web' =>  1]);
-
-
+            //}
+            */
            // $user->notify(new \App\Notifications\PushDemo());
           
            // return redirect()->back();
