@@ -19,6 +19,8 @@ LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job
     - jobs
     - companies
 - Create company profile
+- Add friends
+- Skills assessments 
 - Post jobs
 - Android version with same features
 - And more
