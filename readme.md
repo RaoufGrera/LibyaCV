@@ -48,7 +48,7 @@ git remote add origin https://github.com/raoufgr/LibyaCV.git
 # get the project from github
 git pull orgin master 
 ```
--  create the database in your local machine
+-  create database in your local machine
 ```php
 mysql -h "server-name" -u "your_username" -p "your_password" "database-name" < "libya2019.sql"
 ```
