@@ -37,7 +37,7 @@ LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job
 ![tools](https://raw.githubusercontent.com/RaoufGrera/LibyaCV/master/public/images/libyacv1.png)
 
 ## How to setup
-Step 1 => get the code from github
+- get the code from github
 ```php
 # create a new git repository
 git init
@@ -48,12 +48,12 @@ git remote add origin https://github.com/raoufgr/LibyaCV.git
 # get the project from github
 git pull orgin master 
 ```
-Step 2 =>  create the database in your local machine
+-  create the database in your local machine
 ```php
 mysql -h "server-name" -u "your_username" -p "your_password" "database-name" < "libya2019.sql"
 ```
 
-Step 3 => After download redis execute this command
+- After download redis execute this command
 ```php
 php artisan refresh:send
 ```
