@@ -31,6 +31,9 @@ LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job
 * [JQuery](https://jquery.com)
 * [Bootstrap](https://getbootstrap.com)
 
+## Tools
+![tools](https://raw.githubusercontent.com/RaoufGrera/LibyaCV/master/public/images/libyacv1.png)
+
 ## How to setup
 Step 1 => get the code from github
 ```php
@@ -57,5 +60,4 @@ php artisan refresh:send
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raoufgrera)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/raoufgrera)
 
-## Tools
-![tools](https://raw.githubusercontent.com/RaoufGrera/LibyaCV/master/public/images/libyacv1.png)
+
