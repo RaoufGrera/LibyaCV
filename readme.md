@@ -8,6 +8,9 @@
 LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job seekers with employers looking to hire. 
 
 
+## Digram
+![Site map](https://raw.githubusercontent.com/RaoufGrera/job_portal/master/images/libyacv1.png)
+
 ## Screenshots
 
 ## Features
