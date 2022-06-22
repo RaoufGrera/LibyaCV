@@ -8,8 +8,6 @@
 LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job seekers with employers looking to hire. 
 
 
-## Digram
-![Site map](https://raw.githubusercontent.com/RaoufGrera/LibyaCV/master/public/images/libyacv1.png)
 
 ## Screenshots
 
@@ -59,7 +57,5 @@ php artisan refresh:send
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/raoufgrera)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/raoufgrera)
 
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+## Tools
+![tools](https://raw.githubusercontent.com/RaoufGrera/LibyaCV/master/public/images/libyacv1.png)
