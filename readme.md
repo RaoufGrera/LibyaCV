@@ -8,6 +8,7 @@
 LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job seekers with employers looking to hire. 
 
 
+
 ## Screenshots
 
 ## Features
@@ -18,6 +19,8 @@ LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job
     - jobs
     - companies
 - Create company profile
+- Add friends
+- Skills assessments 
 - Post jobs
 - Android version with same features
 - And more
@@ -30,8 +33,11 @@ LibyaCV.com Founded in 2018, it is the leading job site in Libya, connecting job
 * [JQuery](https://jquery.com)
 * [Bootstrap](https://getbootstrap.com)
 
+## Tools
+![tools](https://raw.githubusercontent.com/RaoufGrera/LibyaCV/master/public/images/libyacv1.png)
+
 ## How to setup
-Step 1 => get the code from github
+- get the code from github
 ```php
 # create a new git repository
 git init
@@ -42,12 +48,12 @@ git remote add origin https://github.com/raoufgr/LibyaCV.git
 # get the project from github
 git pull orgin master 
 ```
-Step 2 =>  create the database in your local machine
+-  create database in your local machine
 ```php
 mysql -h "server-name" -u "your_username" -p "your_password" "database-name" < "libya2019.sql"
 ```
 
-Step 3 => After download redis execute this command
+- After download redis execute this command
 ```php
 php artisan refresh:send
 ```
@@ -57,6 +63,3 @@ php artisan refresh:send
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/raoufgrera)
 
 
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
