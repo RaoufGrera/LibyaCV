@@ -58,8 +58,8 @@ Route::get('privacy_policy', 'MainController@policy');
 
 Route::get('donate', 'MainController@donate');
 Route::get('term', 'MainController@terms');
+Route::get('emeypriv', 'MainController@emeyprivacy');
 
-Route::get('terms', 'MainController@terms');
 Route::get('emeyprivacy', 'MainController@emeyprivacy');
 
 Route::get('login/facebook', 'SocialiteAuth\AuthController@redirectToProvider');
