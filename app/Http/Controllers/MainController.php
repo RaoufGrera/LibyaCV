@@ -6,6 +6,12 @@ use Illuminate\Http\Request;
 
 class MainController extends Controller
 {
+
+     public function emeyprivacy()
+    {
+     
+        return view('main.emeyprivacy');
+    }
     public function policy(){
 
         return view('main.policy');

@@ -60,6 +60,7 @@ Route::get('donate', 'MainController@donate');
 Route::get('term', 'MainController@terms');
 
 Route::get('terms', 'MainController@terms');
+Route::get('emeyprivacy', 'MainController@emeyprivacy');
 
 Route::get('login/facebook', 'SocialiteAuth\AuthController@redirectToProvider');
 Route::get('login/facebook/callback', 'SocialiteAuth\AuthController@handleProviderCallback');
