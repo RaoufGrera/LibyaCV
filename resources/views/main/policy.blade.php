@@ -28,7 +28,7 @@
              
         </ul>
         <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
-            We add your "e-mail" and "your name on Facebook" to your personal account in the application and your CV 
+            We add your "e-mail" and  "your name on Facebook" to your personal account in the application and your CV 
           </font></font></li>
                    <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">You can delete this data, and all the data you enter into the system yourself through the service to permanently delete the account from the application</font></font></li>
 
