@@ -10,35 +10,33 @@
 
     <div class="container">
         <div class="row">
-             <div class="col-md-12 ">
+        <div class="col-md-12 ">
                 <br>
-                <h5 class="title-page"> سياسة الخصوصية </h5>
+                <h5 class="title-page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">privacy policy</font></font></h5><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
               
                    
-                    البيانات الموجودة داخل النظام
-يمكن للزوار الاطلاع علي جميع الوظائف الشاغرة والسير الذاتية التي تم الموافقة علي ظهورها من قبل المستخدم لعامة الزوار
-                   <li>يمكن للمستخدم التحكم في ظهور سيرته الذاتية واخفائها من نتائج البحث ومن العرض داخل النظام</li>
+                    The data inside the system. Visitors can view all vacancies and resumes that have been approved to appear by the user to the general visitors.
+                   </font></font><li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The user can control the appearance of his resume and its hiding from the search results and from display within the system</font></font></li>
            
-                   <h5 class="title-page"> التسجيل باستخدام الفيسبوك </h5>
-                   <li>سنقوم بجمع البيانات التالية:
-                   </li>
+                   <h5 class="title-page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Register with Facebook</font></font></h5>
+                   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">We will collect the following data:
+                   </font></font></li>
                     <ul>
                       
-                <li>الأسم : name</li>
-                <li> البريد الألكتروني : email </li>
+                <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Name: name</font></font></li>
+                <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Email: email</font></font></li>
              
         </ul>
-        <li>
-            .نقوم بإضافة "بريدك الالكتروني" و"اسمك علي الفيسبوك" الي الحساب الشخصي الخاص بك في التطبيق والسيرة الذاتية 
-          </li>
-                   <li> بإمكانك حذف هذه البيانات، وكل البيانات التي تدخلها للنظام بنفسك من خلال 
-                       خدمة حذف الحساب نهائياً من التطبيق</li>
-                       <li>الغرض من البريد الألكتروني والاسم هو اضافة هذه البيانات لسيرتك الذاتية داخل النظام بحيث يمكنك لاحقا تعديل هذه البيانات داخل التطبيق كما يمكنك حذف هذه البيانات نهائيا من التطبيق</li>
+        <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+            We add your "e-mail" and "your name on Facebook" to your personal account in the application and your CV 
+          </font></font></li>
+                   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">You can delete this data, and all the data you enter into the system yourself through the service to permanently delete the account from the application</font></font></li>
 
-                   <h5 class="title-page"> حذف الحساب نهائيا من النظام </h5>
 
-                   <li>عند تسجيل الدخول من القائمة المنسدلة لأيقونة الحساب علي يمين التطبيق تختار اعدادات</li>
-                   <li>سيتم فتح شاشة الاعدادات وبإمكانك الضغظ علي زر حذف الحساب لحذف كل البيانات الفيسبوك التي تم جمعها وهي الأسم والبريد الألكتروني كذلك سيتم حذف كل البيانات التي ادخلتها لسيرتك الذاتية وحذف حسابك بالكامل من التطبيق </li>
+                   <h5 class="title-page"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Permanently delete the account from the system</font></font></h5>
+
+                   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">When logging in, from the drop-down list of the account icon on the right of the application, choose Settings</font></font></li>
+                   <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">The settings screen will open and you can click on the delete account button to delete all the Facebook data that has been collected, which is the name and email, as well as all the data you entered for your CV will be deleted and your account will be completely deleted from the application</font></font></li>
                  
    
 
