@@ -55,7 +55,7 @@ class SendWeb extends Command
                
                
                 $title ="وظائف شاغرة في ليبيا";
-                $body ="أكثر من 20 وظيفة شاغرة تم نشرها في الموقع.. للمزيد من التفاصيل يرجي زيارة الموقع";
+                $body ="أكثر من 10 وظائف شاغرة تم نشرها في الموقع.. للمزيد من التفاصيل يرجي زيارة الموقع";
                 $icon = $companyImage;
                 Notification::send($user,new SendWebNoti($title, $body,$icon, $action));
             
