@@ -9,6 +9,41 @@ services:
     restart: unless-stopped
     working_dir: /var/www/html/
     ports:
-      - 8089:80
+      - 8084:84
     volumes:
       - ./:/var/www/html
+    depends_on:
+      - mysql
+
+  mysql:
+    build:
+      context: ./mysql
+      dockerfile: Dockerfile
+    image: libyacv-mysql
+    command: mysqld --default-authentication-plugin=mysql_native_password
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: newuser
+      MYSQL_ROOT_HOST: "0.0.0.0"
+      MYSQL_DATABASE: jobs_libya
+      MYSQL_USER: newuser
+      MYSQL_PASSWORD: newuser
+  phpmyadmin:
+    image: phpmyadmin:latest
+    restart: always
+    ports:
+      - 8087:87
+    environment:
+      PMA_HOST: mysql
+      MYSQL_ROOT_PASSWORD: newuser
+    # Wait for "mysql" container to start first
+    depends_on:
+      - mysql
+  redis:
+    image: redis:alpine
+    container_name: myapp-redis
+    # command: redis-server --appendonly yes --requirepass "${REDIS_PASSWORD}"
+    volumes:
+      - ./data/redis:/data
+    ports:
+      - "8002:6379"
