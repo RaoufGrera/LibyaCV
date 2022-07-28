@@ -52,7 +52,9 @@ Route::get('version', 'Api\HomeController@getVersion');
 
 
 Route::get('search/cv', 'Api\Search\CvController@searchCV');
-
+Route::get('search/job', 'Api\Search\JobSearchController@searchJob');
+Route::get('search/company', 'Api\Search\CompanyController@showCompany');
+Route::get('job/{user}', 'Api\Search\JobSearchController@showJob');
 Route::middleware('auth:api')->group(function () {
     Route::get('show/seeker', 'Api\Show\ShowController@showCvAuth');
 
