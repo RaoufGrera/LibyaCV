@@ -121,14 +121,13 @@ class JobSearchController extends Controller
 
             $i =0;
             foreach($jobsArray as $dd){
-                if($i == 8 )
-                $lastjob[]=array('type'=>"ads");
+               
 
                 $lastjob[]=$dd;
                 $i++;
             }
           //  $lastjob[count($lastjob)] =    array('type'=>"ads");
-          //  $jobsArray=$lastjob;
+            $jobsArray=$lastjob;
 
         }
 
