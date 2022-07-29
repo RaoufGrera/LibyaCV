@@ -220,6 +220,78 @@ class JobSearchController extends Controller
             ,200,[],JSON_NUMERIC_CHECK);
 
     }
+
+    public function showJobFlutter($desc_id){
+
+
+
+
+        $job = DB::table('job_description')
+            ->select('job_description.desc_id', 'job_name', 'managers.manager_id', 'level', 'companys.comp_id'
+                , 'comp_user_name', 'comp_name', 'job_start', 'job_end'
+                , DB::raw('COUNT(DISTINCT job_seeker_req.seeker_id) AS req_count')
+                 , 'job_desc', 'job_description.email','job_description.phone','job_description.website','how_receive'
+                , 'job_description.see_it', 'image', 'code_image', 'job_city.city_name', 'job_domain.domain_name', 'compt_name')
+            ->join('managers', 'managers.manager_id', '=', 'job_description.manager_id')
+            ->join('companys', 'companys.comp_id', '=', 'managers.comp_id')
+            ->leftJoin('job_seeker_req', 'job_seeker_req.desc_id', '=', 'job_description.desc_id')//error
+            ->join('job_domain', 'job_domain.domain_id', '=', 'job_description.domain_id')
+            ->join('job_city', 'job_city.city_id', '=', 'job_description.city_id')
+               ->where('job_description.desc_id', '=', $desc_id)
+            ->groupby('job_description.desc_id')
+            ->first();
+        if($job == null)
+             return response()->json(  null ,200,[],JSON_NUMERIC_CHECK);
+      
+
+     
+        $randNum = rand(1, 20);
+
+            DB::table('job_description')
+                ->where('desc_id', $desc_id)
+                ->update(['see_it' => DB::raw('see_it+1')]);
+
+
+        $actual_link ="https://www.libyacv.com";
+        if($job->image == "") {
+            $stringImage= $actual_link."/images/simple/company.png";
+
+        }else{
+            $stringImage= $actual_link."/images/company/300px_". $job->code_image ."_". $job->image;
+        }
+
+        $utf8_text = $this->strip_html_tags($job->job_desc);
+
+        $jobsArray = array(
+            "desc_id" =>$job->desc_id,
+            "job_name" =>$job->job_name,
+            "see_it" =>$job->see_it,
+            "image" =>$stringImage,
+            "code_image" =>$job->code_image,
+            "city_name" =>$job->city_name,
+            "domain_name" =>$job->domain_name,
+            "compt_name" =>$job->compt_name,
+            //"job_skills" =>$job->job_skills,
+            "job_desc" =>$utf8_text,
+            "comp_user_name" =>$job->comp_user_name,
+            "comp_name" =>$job->comp_name,
+            "job_start" =>$job->job_start,
+            "job_end" =>$job->job_end,
+
+            "req_count" =>$job->req_count,
+            "how_receive" =>$job->how_receive,
+            "email" =>$job->email,
+            "phone" =>$job->phone,
+            "website" =>$job->website,
+
+
+        );
+
+        return response()->json(
+            $jobsArray
+            ,200,[],JSON_NUMERIC_CHECK);
+
+    }
     function strip_html_tags($text)
     {
         $text = preg_replace(
