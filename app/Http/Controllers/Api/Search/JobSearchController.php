@@ -128,7 +128,7 @@ class JobSearchController extends Controller
                 $i++;
             }
           //  $lastjob[count($lastjob)] =    array('type'=>"ads");
-            $jobsArray=$lastjob;
+          //  $jobsArray=$lastjob;
 
         }
 
