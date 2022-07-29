@@ -262,16 +262,21 @@ class JobSearchController extends Controller
     //    $type = Helpers::getDataSeeker('job_type',null,false);
      //   $Status = Helpers::getDataSeeker('job_status',null,false);
 
-
         return response()->json([
             'city' => $city,
             'domain'=>$domain,
           //  'type' => $type,
            // 'status'=>$Status,
         ], 200);
-
     }
+    public function showParaSearchFlutter(){
+        $city = Helpers::getDataSeeker('job_city',null,false);
+       // $domain = Helpers::getDataSeeker('job_domain',null,false);
+    //    $type = Helpers::getDataSeeker('job_type',null,false);
+     //   $Status = Helpers::getDataSeeker('job_status',null,false);
 
+        return response()->json( $city, 200);
+    }
     public function postJob($id){
 
         $seeker_id =Auth::user()->seeker_id;

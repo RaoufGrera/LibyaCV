@@ -49,7 +49,7 @@ Route::get('refresh', 'Api\HomeController@refresh');
 
 Route::get('category', 'Api\HomeController@category');
 Route::get('version', 'Api\HomeController@getVersion');
-Route::get('flutter/search/showparajob', 'Api\Search\JobSearchController@showParaSearchJob');
+Route::get('flutter/search/showparajob', 'Api\Search\JobSearchController@showParaSearchFlutter');
 
 
 Route::get('flutter/search/jobs', 'Api\Search\JobSearchController@searchJob');
