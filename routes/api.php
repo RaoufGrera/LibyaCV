@@ -49,9 +49,10 @@ Route::get('refresh', 'Api\HomeController@refresh');
 
 Route::get('category', 'Api\HomeController@category');
 Route::get('version', 'Api\HomeController@getVersion');
+Route::get('flutter/search/showparajob', 'Api\Search\JobSearchController@showParaSearchJob');
 
 
-Route::get('search/jobs', 'Api\Search\JobSearchController@searchJob');
+Route::get('flutter/search/jobs', 'Api\Search\JobSearchController@searchJob');
 Route::get('jobs/{user}', 'Api\Search\JobSearchController@showJob');
 Route::middleware('auth:api')->group(function () {
     Route::get('show/seeker', 'Api\Show\ShowController@showCvAuth');
