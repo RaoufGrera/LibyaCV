@@ -22,17 +22,15 @@ class JobSearchController extends Controller
 
         if(!empty($_GET['string'])){ $string = str_replace("-"," ",$_GET['string']); }else{ $string =NULL; }
 
-        if(!empty($_GET['city'])){ $cityName = str_replace("-"," ",$_GET['city']); }else{ $cityName =NULL; }
+        if(!empty($_GET['city'])){ 
+            
+            $cityName = str_replace("-"," ",$_GET['city']); 
+            if($_GET['city'] == "كل المدن"){   $cityName = NULL;}
+           
+        }else{ $cityName =NULL; }
 
         if(!empty($_GET['domain'])){ $domainName = str_replace("-"," ",$_GET['domain']); }else{ $domainName =NULL; }
-        /*    موظف متعاقد متطوع متدرب */
-    //    if(!empty($_GET['type'])){ $typeName = str_replace("-"," ",$_GET['type']); }else{ $typeName =NULL; }
-
-
-
-   //     if(!empty($_GET['status'])){ $statusName = str_replace("-"," ",$_GET['status']); }else{ $statusName =NULL; }
-
-
+  
 
         if(!empty($_GET['page'])){ $page = (int) $_GET['page']; }else{ $page =1; }
 
