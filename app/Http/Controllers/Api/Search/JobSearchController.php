@@ -260,7 +260,7 @@ class JobSearchController extends Controller
             $stringImage= $actual_link."/images/company/300px_". $job->code_image ."_". $job->image;
         }
 
-        $utf8_text = $this->strip_html_tags($job->job_desc);
+        $utf8_text = $job->job_desc;
 
         $jobsArray = array(
             "desc_id" =>$job->desc_id,
