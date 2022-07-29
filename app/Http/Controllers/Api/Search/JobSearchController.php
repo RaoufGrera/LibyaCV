@@ -270,12 +270,25 @@ class JobSearchController extends Controller
         ], 200);
     }
     public function showParaSearchFlutter(){
-        $city = Helpers::getDataSeeker('job_city',null,false);
-       // $domain = Helpers::getDataSeeker('job_domain',null,false);
-    //    $type = Helpers::getDataSeeker('job_type',null,false);
-     //   $Status = Helpers::getDataSeeker('job_status',null,false);
+      //  $city = Helpers::getDataSeeker('job_city',null,false);
+        $s = new Search();
+        $data = array(
+            'select' => 'all',
+            'id' => NULL,
+            'string'    =>  null,
+            'cityName' => null,
+            'domainName' =>null,
+        //    'typeName' => $typeName,
 
-        return response()->json( $city, 200);
+          //  'statusName' => $statusName,
+
+            'page' =>  0,
+            'start' =>  NULL,
+            'end' =>  NULL,
+        );
+        $data['select'] = "city";
+        $cityDB = $s->searchJob($data);
+        return response()->json( $cityDB, 200);
     }
     public function postJob($id){
 
