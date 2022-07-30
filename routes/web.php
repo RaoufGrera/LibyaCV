@@ -53,7 +53,7 @@ Route::get('file/jobs', 'FileController@index');
 Route::get('file/insert', 'FileController@postInsert');
 
 Route::get('policy', 'MainController@emeyprivacy');
-
+Route::get('jobsinlibya/privacy','MainController@jobsprivacy');
 Route::get('privacy_policy', 'MainController@policy');
 
 Route::get('donate', 'MainController@donate');

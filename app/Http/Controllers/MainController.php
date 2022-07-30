@@ -12,6 +12,12 @@ class MainController extends Controller
      
         return view('main.emeyprivacy');
     }
+
+    public function jobsprivacy()
+    {
+     
+        return view('main.jobsprivacy');
+    }
     public function policy(){
 
         return view('main.policy');
