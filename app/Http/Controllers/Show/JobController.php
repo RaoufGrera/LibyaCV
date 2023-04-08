@@ -65,8 +65,8 @@ class JobController extends Controller
             $separator="-";
             $string = trim($job->job_name);
             $string = mb_strtolower($string, 'UTF-8');
-            $string = preg_replace("/[^a-z0-9_\s-ءاآؤئليةبپتثجچحخدذرزسشصضطظعغفقكکگلمنوهی]/u", '', $string);
-            $string = preg_replace("/[\s-_]+/", ' ', $string);
+            $string = preg_replace("/[^a-z0-9_\s\-ءاآؤئليةبپتثجچحخدذرزسشصضطظعغفقكکگلمنوهی]/u", '', $string);
+            $string = preg_replace("/[\s\-_]+/", ' ', $string);
             $string = preg_replace("/[\s_]/", $separator, $string);
 
 
