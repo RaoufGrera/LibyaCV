@@ -117,11 +117,11 @@
                 @else
                     <li><a  href="/">الرئيسية</a></li>
                 @endif
-                <li><a href="/company/search">الشركات<span class="head_number">{{ $notes['company'] }}</span></a></li>
-                <li><a href="/job/search">الوظائف<span class="head_number">{{ $notes['desc'] }}</span> </a></li>
-               {{--  <li><a href="/services/search">الخدمات <span class="head_number">{{ $notes['services'] }}</span></a></li> --}}
+                <li><a href="/company/search">الشركات</a></li>
+                <li><a href="/job/search">الوظائف </a></li>
+               {{--  <li><a href="/services/search">الخدمات </a></li> --}}
 
-                <li><a href="/cv/search">السير الذاتية<span class="head_number">{{ $notes['seekers'] }}</span></a></li>
+                <li><a href="/cv/search">السير الذاتية</a></li>
 
 
             </ul>
