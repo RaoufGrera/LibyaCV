@@ -258,7 +258,7 @@ FROM job_domain t HAVING domain_count != 0 order by domain_count desc,seeker_cou
             $string = $jobArray['job_name'];
             $string = trim($string);
             $string = mb_strtolower($string, 'UTF-8');
-            $string = preg_replace("/[^a-z0-9_\s-ءاآؤئليةبپتثجچحخدذرزسشصضطظعغفقكکگلمنوهی]/u", '', $string);
+            $string = preg_replace("/[^a-z0-9_\s\-ءاآؤئبپتثجچحخدذرزژسشصضطظعغفقكکگلمنوهی]/u", '', $string);
             $string = preg_replace("/[\s-_]+/", ' ', $string);
             $string = preg_replace("/[\s_]/", $separator, $string);
 
@@ -328,7 +328,7 @@ FROM job_domain t HAVING domain_count != 0 order by domain_count desc,seeker_cou
     {
         $string = trim($string);
         $string = mb_strtolower($string, 'UTF-8');
-        $string = preg_replace("/[^a-z0-9_\s-ءاآؤئليةبپتثجچحخدذرزسشصضطظعغفقكکگلمنوهی]/u", '', $string);
+        $string = preg_replace("/[^a-z0-9_\s\-ءاآؤئبپتثجچحخدذرزژسشصضطظعغفقكکگلمنوهی]/u", '', $string);
         $string = preg_replace("/[\s-_]+/", ' ', $string);
         $string = preg_replace("/[\s_]/", $separator, $string);
 

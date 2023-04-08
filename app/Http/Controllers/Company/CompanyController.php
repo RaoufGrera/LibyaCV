@@ -72,7 +72,7 @@ class CompanyController extends Controller
         $string = $request->input('comp_user_name');
         $string = trim($string);
         $string = mb_strtolower($string, 'UTF-8');
-        $string = preg_replace("/[^a-z0-9_\s-ءاآؤئليةبپتثجچحخدذرزسشصضطظعغفقكکگلمنوهی]/u", '', $string);
+        $string = preg_replace("/[^a-z0-9_\s\-ءاآؤئبپتثجچحخدذرزژسشصضطظعغفقكکگلمنوهی]/u", '', $string);
         $string = preg_replace("/[\s-_]+/", ' ', $string);
         $comp_user_name = preg_replace("/[\s_]/", "-", $string);
 
